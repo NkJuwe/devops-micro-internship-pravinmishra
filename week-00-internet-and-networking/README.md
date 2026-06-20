@@ -11,7 +11,10 @@ Domain & DNS, VS Code setup, and using ChatGPT as a learning tool.
 
 **Prompt I used:**
 
-<!-- Paste the exact prompt you wrote to ChatGPT -->
+<!-- I'm currently learning DevOps and have enrolled in a course on Udemy that t pian to follow. 
+To be honest, I don't know much about DevOps yet, so l'll need your help from time to time while going through the course.
+When I ask questions, please try to explain things in very simple language, preferably with some examples.
+Now help me to understand what is Difference Between Two-Tier and Three-Tier Application Architecture -->
 
 **Screenshot:**
 
@@ -26,7 +29,7 @@ Explain in 100–150 words how users globally can access it. Cover: Packet Switc
 
 **My Explanation:**
 
-<!-- Write your 100-150 word explanation here -->
+<!-- When a user anywhere in the world visits EpicReads, their device connects to the internet using an IP address, which uniquely identifies both the user and the Finnish server hosting the bookstore. The request to access the website is broken into smaller chunks through packet switching, allowing data to travel efficiently across multiple routes. These packets follow the TCP/IP protocol suite: TCP ensures reliable delivery by reassembling packets in the correct order, while IP handles addressing and routing. Once the request reaches the server, the website is delivered using HTTP or HTTPS. HTTPS is especially important, as it encrypts data for secure communication, protecting user information like login credentials and payments. This entire process enables fast, reliable, and secure global access to EpicReads. -->
 
 ---
 
