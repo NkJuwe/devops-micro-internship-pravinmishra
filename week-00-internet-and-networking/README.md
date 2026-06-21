@@ -87,7 +87,7 @@ Database → Backend → Frontend → User -->
 
 ## Task 6: LinkedIn Post
 
-**Post URL:** <!-- Paste your LinkedIn post URL here -->
+**Post URL:** <!-- https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-ugcPost-7474268314182180864-Qf4M/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7474268315809591296&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M -->
 
 ---
 
