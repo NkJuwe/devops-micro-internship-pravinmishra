@@ -93,7 +93,9 @@ Database → Backend → Frontend → User -->
 
 ## Key Learnings
 
-<!-- 3-5 bullet points on what you learned this week -->
+<!-- - I learned how DNS turns a website name into an IP address
+- I now understand what actually happens when a website loads in the browser
+- I’m starting to see how different internet systems connect to make everything work -->
 
 -
 -
