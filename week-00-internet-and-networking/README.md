@@ -39,7 +39,7 @@ Explain in 100–150 words how users globally can access it. Cover: Packet Switc
 
 **Two-Tier Architecture (Frontend + Database):**
 
-<!-- Describe or embed your diagram here -->
+<!-- User → Frontend → Database → Frontend → User -->
 
 ![Two-Tier Diagram](./screenshots/task3-two-tier.png)
 
@@ -50,7 +50,8 @@ Explain in 100–150 words how users globally can access it. Cover: Packet Switc
 
 **Three-Tier Architecture (Frontend + Backend + Database):**
 
-<!-- Describe or embed your diagram here -->
+<!-- User → Frontend → Backend → Database
+Database → Backend → Frontend → User -->
 
 ![Three-Tier Diagram](./screenshots/task3-three-tier.png)
 
@@ -68,7 +69,7 @@ Explain in 100–150 words how users globally can access it. Cover: Packet Switc
 
 **My Explanation (50–100 words):**
 
-<!-- Explain what DNS is and which DNS record type connects the domain to the IP, and why -->
+<!-- DNS (Domain Name System) is the system that translates human-readable domain names like *epicreads.com* into machine-readable IP addresses such as *52.172.142.222*. It acts like a phonebook of the internet. To connect the domain to the IP address, an **A record** is used. This record maps the domain name directly to the server’s IPv4 address. This allows users to access EpicReads using a simple domain name instead of remembering a numeric IP, improving usability and accessibility. -->
 
 ---
 
