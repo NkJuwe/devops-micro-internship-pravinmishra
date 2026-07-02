@@ -33,7 +33,8 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Most people think learning ends when you get a job, finish a course, or become “good enough” at something. I don’t agree with that. I believe learning is a continuous process that never really stops.The moment you stop learning, you slowly start losing touch, even if you do not notice it right away. Skills get outdated, thinking becomes rigid, and you miss how fast things are changing around you.I also believe you never really know when something you learned will become useful again. Something that looks irrelevant today can become the exact thing you need tomorrow in your career or life.
+
 
 ---
 
@@ -55,11 +56,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Learning without consistent practice does not translate into real skill.
 
 ### Evidence from my life
 
-Add your answer here...
+I started with IT support training and felt I understood the concepts. But I did not consistently practice the tools I was learning. When it was time to apply the knowledge, I struggled to execute confidently.
 
 ---
 
@@ -67,11 +68,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Constantly switching learning paths without completing mastery leads to confusion, not progress.
 
 ### Evidence from my life
 
-Add your answer here...
+I moved from IT support to virtual assistant, then cloud computing, DevOps, cybersecurity, and automations. Each one felt exciting at the start, but I kept stacking courses instead of building depth. Over time, this created mental overload and slowed down real results.
 
 ---
 
@@ -79,11 +80,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Consistency breaks when challenges feel uncomfortable, and without persistence, progress slows down.
 
 ### Evidence from my life
 
-Add your answer here...
+I noticed that when I face difficult parts like debugging or problem solving, I tend to feel discouraged or distracted. Even when I try to be consistent, I fall off after some time. This has shown me that discipline is not about starting, but about staying through discomfort.
 
 ---
 
@@ -135,8 +136,7 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
-
+nk
 ### Public Link
 
 Paste your link here:
@@ -173,7 +173,12 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes, I have experienced this.
+Looking back at a group project during my DevOps and cloud training, I felt a deep sense of regret and disappointment in myself. We had performed well as a team before, and when we were given another opportunity to build something meaningful with guidance, I knew I had the ability to step up and contribute more. But instead, I took a back seat.
+At the time, it did not feel like a big decision. It was gradual. I let distractions take over, I delayed action, and I did not hold myself accountable the way I should have. As things slowed down, I felt a quiet kind of guilt, not loud, but persistent, because I knew I was capable of more.
+What stayed with me most was the disappointment. Not because of others, but because I did not show up fully for something that mattered. It made me realize that sometimes the real cost of cutting corners is not the outcome, but how it affects how you see yourself.
+That feeling has pushed me to become more intentional about consistency, ownership, and following through, even when it is uncomfortable.
+
 
 ---
 
@@ -199,16 +204,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits- James Clear
+2. The One Thing- Gary Keller
+3. So Good They Can’t Ignore You- Cal Newport
+4. The Lean Startup- Eric Ries
+5. The 5 AM Club- Robin Sharma
+6. Essentialism- Greg McKeown
+7. Make Time- Jake Knapp & John Zeratsky
+8. The Psychology of Money- Morgan Housel
+9. Deep Work- Cal Newport
+10. The Effective Engineer- Edmond Lau
 
 ---
 
@@ -237,16 +242,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week (focused, not passive)
+* Tools practiced per week (hands-on usage)
+* Deep work sessions completed
+* Distraction-free hours per day
+* Projects built
+* GitHub commits or updates
+* Tasks completed vs tasks planned
+* Sleep quality and energy levels
+* Workouts or physical activity
+* Monthly income and spending tracking
 
 ---
 
@@ -272,7 +277,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,7 +295,29 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon-Thu (Class + Gym Days)
+Morning (before/after class depending on schedule)
+90–120 min DevOps deep work (build, practice, debug)
+Midday / Classes
+Attend MSc classes (physical or online)
+Afternoon
+60–90 min MSc study / revision
+Evening
+2 hours gym (5x/week)
+Night
+60–80 min job applications / follow-ups
+20–30 min light review
+
+Friday
+60-90 min DevOps (review + fix errors, submit assignments if pending)
+60 min MSc review
+60 min job applications
+Optional gym
+
+Saturday
+DMI session 5hours DevOps 
+45–60 min job applications
+Cleanup and rest/reset
 
 ---
 
@@ -316,7 +343,13 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Phone stays on silent and out of reach during deep work sessions
+No social media before completing my daily DevOps block
+I only check messages after my main work session is done
+I use one tab at a time when working to avoid jumping around
+If I feel stuck, I stay and try for at least 20 minutes before switching tasks
+Ask for help when am stuck, liase with accountability partners
+I work in a clean, quiet space with no unnecessary tabs or apps open
 
 ---
 
@@ -324,15 +357,15 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that my problem is not lack of knowledge, but lack of consistent execution. I tend to start strong but struggle to maintain momentum when things become difficult or unclear.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I noticed a pattern of getting distracted or overwhelmed when I face challenges, especially during debugging or complex tasks. Instead of pushing through, I tend to withdraw or switch focus, which slows down my progress.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will commit to a fixed daily DevOps block from 8:00 AM to 10:00 AM, where I focus only on one task and do not switch tools. Even if I feel stuck, I will stay with the problem for at least 20 minutes before taking a short break or seeking help.
 
 ### LinkedIn Post
 
