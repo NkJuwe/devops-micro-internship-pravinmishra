@@ -34,7 +34,8 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+A networking protocol is a set of rules that allows computers to communicate by sending and receiving data in a structured way.
+It ensures data is delivered correctly, in order, and understood across different systems, just like rules guide how packages are delivered.
 
 ---
 
@@ -59,7 +60,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user anywhere in the world visits EpicReads, their device connects to the internet using an **IP address**, which uniquely identifies both the user and the Finnish server hosting the bookstore. The request to access the website is broken into smaller chunks through **packet switching**, allowing data to travel efficiently across multiple routes. These packets follow the **TCP/IP protocol suite**: TCP ensures reliable delivery by reassembling packets in the correct order, while IP handles addressing and routing. Once the request reaches the server, the website is delivered using **HTTP or HTTPS**. HTTPS is especially important, as it encrypts data for secure communication, protecting user information like login credentials and payments. This entire process enables fast, reliable, and secure global access to EpicReads.
 
 ---
 
@@ -102,18 +103,21 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* Draw.io
+* <img width="254" height="148" alt="image" src="https://github.com/user-attachments/assets/025b30c7-64dd-446d-aa71-aa7af551c5aa" />
+
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Draw.io
+*<img width="282" height="150" alt="image" src="https://github.com/user-attachments/assets/b8fe28af-4219-451f-b338-b0aed6ca3f9f" />
+
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* Draw.io
+* <img width="292" height="138" alt="image" src="https://github.com/user-attachments/assets/9d3a80b7-71ea-47c6-a087-98ea5bea2bf7" />
+
 
 ---
 
@@ -142,7 +146,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is like the phonebook of the internet. It translates human-friendly domain names like epicreads.com into machine-readable IP addresses like 52.172.142.222 so browsers can find the correct server. The DNS record type used here is an A record, because it connects a domain name directly to an IPv4 address. This allows users to access the website using a simple name instead of remembering a long IP address and port.
 
 ---
 
@@ -218,7 +222,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+[Add your URL here...](https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)
 ```
 
 ---
@@ -227,7 +231,26 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+My DevOps Micro Internship | Week 1
+
+Having been on this learning path before, I’m not starting from scratch this time. I’m building on existing knowledge through structured training and hands-on practice under Pravin Mishra, and I aim to stay consistent throughout this journey as I explore and build real-world projects.
+
+This DevOps Micro Internship cohort 3 is helping me refresh and strengthen my understanding of core system fundamentals.
+
+This week focused on how the internet works behind the scenes, and breaking down how everyday web requests actually happen.
+
+Here’s what I learned:
+- How domain names are translated into IP addresses using DNS
+- How DNS resolution works step-by-step (cache - resolver - root - authoritative servers)
+- How data moves across networks using packet-based communication
+- The role of HTTP/HTTPS in loading and securing websites
+
+What stood out most is how many systems work together just to load something as simple as a webpage.
+
+This is not just learning, it’s structured rebuilding.
+Re-engaged my GitHub after some time away and I’m back in VS Code, using it to practice, deploy, and document my DevOps journey as I go. (Sounds like a big flex or a Super power) 😁 
+
+No shortcuts. Just consistency, discipline, and execution.
 
 ---
 
@@ -235,19 +258,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Understanding basic networking concepts like protocols and DNS using real-life examples.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Rememebering the technical setup steps like VS Code terminal usage and understanding architecture layers at first.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I will focus on building more hands-on practice with DevOps tools and improving my understanding of backend and infrastructure concepts.
 
 ---
 
