@@ -52,6 +52,9 @@ Extend `settings.json` with a PreToolUse hook that blocks dangerous Bash command
 
 Add your screenshot here.
 <img width="1046" height="198" alt="image" src="https://github.com/user-attachments/assets/5dd95308-4700-46ef-bd9b-a2ae41f5ba9f" />
+<img width="1046" height="198" alt="Screenshot 2026-07-15 135957" src="https://github.com/user-attachments/assets/e612747b-b6dc-4ac6-987b-2e7170204fa9" />
+<img width="1032" height="188" alt="Screenshot 2026-07-15 140054" src="https://github.com/user-attachments/assets/b6319ae9-1241-42ca-a8da-4afab9497e4e" />
+<img width="1086" height="590" alt="Screenshot 2026-07-15 140226" src="https://github.com/user-attachments/assets/68a88ee8-12f9-42d8-8732-80f2ab1cf176" />
 
 ---
 
@@ -66,7 +69,7 @@ Verify that destructive prompts are blocked before Claude begins execution.
 #### Screenshot 4 — blocked prompt due to UserPromptSubmit hook
 
 Add your screenshot here.
-<img width="1032" height="188" alt="image" src="https://github.com/user-attachments/assets/30d13ff0-f96d-41c3-8291-05a243722651" />
+<img width="672" height="246" alt="Screenshot 2026-07-10 140802" src="https://github.com/user-attachments/assets/7f06d572-9509-456a-a07b-6648491aaeec" />
 
 ---
 
@@ -81,7 +84,8 @@ Verify that dangerous commands are intercepted before execution by the PreToolUs
 #### Screenshot 5 — PreToolUse hook blocking terraform destroy
 
 Add your screenshot here.
-<img width="1086" height="590" alt="image" src="https://github.com/user-attachments/assets/272aaebc-e258-471b-8e5f-d692d65c6487" />
+<img width="662" height="342" alt="Screenshot 2026-07-10 142119" src="https://github.com/user-attachments/assets/adb35c5e-f472-430e-97bd-855792ff4467" />
+<img width="630" height="412" alt="Screenshot 2026-07-10 143124" src="https://github.com/user-attachments/assets/2c37db65-ad66-4548-bf7e-d933cdaa869e" />
 
 ---
 
