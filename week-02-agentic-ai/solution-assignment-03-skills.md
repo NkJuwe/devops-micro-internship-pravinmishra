@@ -21,6 +21,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
 Add your screenshot here.
+<img width="292" height="318" alt="image" src="https://github.com/user-attachments/assets/126bd43e-8c31-4c94-8a5f-dae80312bcfb" />
 
 ---
 
@@ -35,12 +36,14 @@ Place all required skill files into their correct directories and verify their c
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
 Add your screenshot here.
+<img width="250" height="70" alt="Screenshot 2026-07-15 000707" src="https://github.com/user-attachments/assets/8f81ae36-5372-43b5-aef3-0e5ca6c735db" />
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
 Add your screenshot here.
+<img width="308" height="44" alt="Screenshot 2026-07-15 000815" src="https://github.com/user-attachments/assets/47d04c9e-c7bc-4df9-955f-c2e46979cf98" />
 
 ---
 
@@ -51,16 +54,19 @@ Add your screenshot here.
 Execute the `/scaffold-terraform` skill to generate a full Terraform infrastructure setup.
 
 ### Evidence
+<img width="994" height="444" alt="Screenshot 2026-07-15 000940" src="https://github.com/user-attachments/assets/761d540d-56bc-4937-b0be-e9dc5f3b88ac" />
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
 Add your screenshot here.
+<img width="1000" height="268" alt="Screenshot 2026-07-10 015324" src="https://github.com/user-attachments/assets/29f1426b-0f8e-406a-ba5e-9a2d3b2e16c0" />
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
 Add your screenshot here.
+<img width="268" height="126" alt="Screenshot 2026-07-15 001505" src="https://github.com/user-attachments/assets/1a272fb6-f2fe-4027-94eb-0e8f50afd7a9" />
 
 ---
 
@@ -71,10 +77,14 @@ Add your screenshot here.
 Initialize Terraform and execute the `/tf-plan` skill to observe plan execution and output analysis.
 
 ### Evidence
+<img width="692" height="568" alt="Screenshot 2026-07-10 020301" src="https://github.com/user-attachments/assets/a67a20f5-b18b-42c5-8987-b40521d93666" />
+
+<img width="662" height="576" alt="Screenshot 2026-07-10 030146" src="https://github.com/user-attachments/assets/01847e78-3ba9-4a84-8a3d-4fd323561d26" />
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
 Add your screenshot here.
+<img width="694" height="542" alt="Screenshot 2026-07-10 032150" src="https://github.com/user-attachments/assets/bcbeb242-172e-4d17-bbef-2ef7ce279c00" />
 
 ---
 
@@ -90,13 +100,13 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`_https://github.com/NkJuwe/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/NkJuwe/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 ---
 
 # Completion Checklist
