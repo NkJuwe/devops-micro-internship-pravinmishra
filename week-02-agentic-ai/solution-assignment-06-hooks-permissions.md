@@ -21,6 +21,7 @@ Create a team-level `settings.json` file with allow and deny rules for safe comm
 #### Screenshot 1 — Screenshot 1 — `settings.json` open in VS Code showing the full permissions configuration
 
 Add your screenshot here.
+<img width="294" height="276" alt="image" src="https://github.com/user-attachments/assets/5a1031c9-a4b0-4742-b41b-7411453453cb" />
 
 ---
 
@@ -35,6 +36,7 @@ Add a hook that intercepts user prompts before Claude starts execution and block
 #### Screenshot 2 — settings.json showing UserPromptSubmit hook
 
 Add your screenshot here.
+<img width="1084" height="238" alt="image" src="https://github.com/user-attachments/assets/77964e88-e011-4030-8a68-071fa0d20a35" />
 
 ---
 
@@ -49,6 +51,7 @@ Extend `settings.json` with a PreToolUse hook that blocks dangerous Bash command
 #### Screenshot 3 — full settings.json with permissions and hooks
 
 Add your screenshot here.
+<img width="1046" height="198" alt="image" src="https://github.com/user-attachments/assets/5dd95308-4700-46ef-bd9b-a2ae41f5ba9f" />
 
 ---
 
@@ -63,6 +66,7 @@ Verify that destructive prompts are blocked before Claude begins execution.
 #### Screenshot 4 — blocked prompt due to UserPromptSubmit hook
 
 Add your screenshot here.
+<img width="1032" height="188" alt="image" src="https://github.com/user-attachments/assets/30d13ff0-f96d-41c3-8291-05a243722651" />
 
 ---
 
@@ -77,6 +81,7 @@ Verify that dangerous commands are intercepted before execution by the PreToolUs
 #### Screenshot 5 — PreToolUse hook blocking terraform destroy
 
 Add your screenshot here.
+<img width="1086" height="590" alt="image" src="https://github.com/user-attachments/assets/272aaebc-e258-471b-8e5f-d692d65c6487" />
 
 ---
 
@@ -92,7 +97,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`_https://github.com/NkJuwe/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 
