@@ -20,19 +20,27 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account gives you access to Amazon Web Services, where you can create and manage cloud resources like servers, storage, and databases.
+
+At this stage, you need it to practice cloud skills such as launching servers, deploying applications, and using tools like Terraform and Docker.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier allows new users to use selected AWS services for free within certain limits.
+
+It mostly lasts 12 months after creating an AWS account.
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+EC2 – 750 hours/month of eligible virtual server usage (12 months)
+S3 – 5 GB of standard storage
+Lambda – 1 million free requests/month
+
+These limits help beginners learn AWS without immediate costs.
 
 ---
 
@@ -56,7 +64,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+<img width="1440" height="694" alt="image" src="https://github.com/user-attachments/assets/67e01312-19fc-4840-bb9f-30e1407e319b" />
 
 ---
 
