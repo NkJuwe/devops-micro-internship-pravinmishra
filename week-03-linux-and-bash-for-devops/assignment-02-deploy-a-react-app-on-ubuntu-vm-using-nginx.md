@@ -20,7 +20,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-Add your screenshot here.
+<img width="1108" height="618" alt="Screenshot 2026-07-18 221924" src="https://github.com/user-attachments/assets/7efd4d3a-fecb-43b5-9763-f0c0dd08ac35" />
 
 ---
 
@@ -34,7 +34,7 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+<img width="1182" height="570" alt="Screenshot 2026-07-18 222242" src="https://github.com/user-attachments/assets/cdf4700e-2398-4938-b8d3-099caa8dccf4" />
 
 ---
 
@@ -48,7 +48,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-Add your screenshot here.
+<img width="1062" height="616" alt="Screenshot 2026-07-18 225930" src="https://github.com/user-attachments/assets/4d74bf99-5081-4c62-b048-ed9be72e63d6" />
 
 ---
 
@@ -62,7 +62,7 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-Add your screenshot here.
+<img width="978" height="536" alt="Screenshot 2026-07-18 230702" src="https://github.com/user-attachments/assets/2e18d5fe-2924-4f6c-a9d3-c09e77e03b82" />
 
 ---
 
@@ -76,7 +76,7 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-Add your screenshot here.
+<img width="986" height="458" alt="Screenshot 2026-07-19 000222" src="https://github.com/user-attachments/assets/d0ce274e-27f9-4cc5-bbac-b7f642d8d815" />
 
 ---
 
@@ -90,7 +90,7 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-Add your screenshot here.
+<img width="1004" height="220" alt="Screenshot 2026-07-19 000815" src="https://github.com/user-attachments/assets/8defdfe2-3b06-41dc-854b-7e3900b62555" />
 
 ---
 
@@ -104,13 +104,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-Add your screenshot here.
+<img width="1054" height="604" alt="Screenshot 2026-07-19 163029" src="https://github.com/user-attachments/assets/ba73a03b-7ea7-48c7-a50b-aece6d86262b" />
 
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-Add your screenshot here.
+<img width="1054" height="604" alt="Screenshot 2026-07-19 163029" src="https://github.com/user-attachments/assets/0742503f-1656-4766-b9c8-eb9ecf2c0123" />
 
 ---
 
@@ -124,13 +124,14 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+<img width="680" height="66" alt="image" src="https://github.com/user-attachments/assets/ff2c07dc-b9d4-45e3-9924-57bf8a3e53a3" />
+
 
 ---
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-Add your screenshot here.
+<img width="1322" height="672" alt="Screenshot 2026-07-19 170249" src="https://github.com/user-attachments/assets/3cf87a8b-712c-4a44-8c3a-83b49e58f865" />
 
 ---
 
@@ -142,13 +143,15 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-7484645241799663617-fZHO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-Add your screenshot here.
+<img width="580" height="744" alt="Screenshot 2026-07-19 175010" src="https://github.com/user-attachments/assets/769fce0d-1cfb-4064-9ea7-492440efe61b" />
+<img width="548" height="704" alt="Screenshot 2026-07-19 175026" src="https://github.com/user-attachments/assets/fd90b61f-3e54-432f-b93d-3bdf75b94571" />
+
 
 ---
 
