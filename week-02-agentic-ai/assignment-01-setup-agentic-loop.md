@@ -20,14 +20,12 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-Add your screenshot here.
 <img width="684" height="90" alt="Screenshot 2026-07-08 173725" src="https://github.com/user-attachments/assets/37d760f0-7bbc-454b-9106-0e26d8d46bbe" />
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-Add your screenshot here.
 <img width="786" height="278" alt="Screenshot 2026-07-08 174707" src="https://github.com/user-attachments/assets/228b2c9f-f2f4-432d-9a06-d4bdc145f8db" />
 
 ---
@@ -42,7 +40,6 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-Add your screenshot here.
 <img width="644" height="302" alt="Screenshot 2026-07-08 175054" src="https://github.com/user-attachments/assets/a6d6d965-2dca-4a78-8c44-e212f31adda1" />
 
 ---
@@ -57,14 +54,12 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-Add your screenshot here.
 <img width="656" height="600" alt="Screenshot 2026-07-08 174910" src="https://github.com/user-attachments/assets/7c168b16-0d1a-4e25-9365-bbae0cac6267" />
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
 <img width="636" height="208" alt="Screenshot 2026-07-08 175357" src="https://github.com/user-attachments/assets/dba8bfe3-96c1-49cf-b2d5-6532832bd5d1" />
 
 ---
