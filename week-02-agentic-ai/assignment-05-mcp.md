@@ -20,7 +20,6 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-Add your screenshot here.
 <img width="842" height="414" alt="Screenshot 2026-07-10 094416" src="https://github.com/user-attachments/assets/aa3dba04-4753-4d13-baec-81eb340d0a85" />
 <img width="546" height="114" alt="Screenshot 2026-07-10 094428" src="https://github.com/user-attachments/assets/d6bd4372-957f-422f-baaf-99c13ab4528d" />
 
@@ -36,7 +35,6 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-Add your screenshot here.
 <img width="962" height="224" alt="image" src="https://github.com/user-attachments/assets/af0d67a3-4a99-40bc-8b29-a6a3b74c33f7" />
 
 ---
@@ -51,7 +49,6 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-Add your screenshot here.
 <img width="1016" height="286" alt="image" src="https://github.com/user-attachments/assets/ca9debcb-e65a-430c-ab68-76c5cd000f02" />
 
 ---
@@ -66,7 +63,6 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
 <img width="646" height="136" alt="Screenshot 2026-07-10 034516" src="https://github.com/user-attachments/assets/06a911a1-6722-4a9d-a6e9-8b2f847f6dcc" />
 
 ---
@@ -81,7 +77,6 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-Add your screenshot here.
 <img width="674" height="456" alt="Screenshot 2026-07-10 034753" src="https://github.com/user-attachments/assets/ff4ff847-362d-4e83-b2f6-2e59acc5105c" />
 
 ---
