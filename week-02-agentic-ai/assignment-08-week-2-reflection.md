@@ -1,4 +1,4 @@
-<img width="2880" height="1800" alt="Screenshot 2026-07-08 141720" src="https://github.com/user-attachments/assets/f4da484c-bb48-4d87-baa6-e65a14415e14" /># Assignment 8 — Week 2 Reflection Blog
+# Assignment 8 — Week 2 Reflection Blog
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+<img width="2880" height="1800" alt="Screenshot 2026-07-08 141720" src="https://github.com/user-attachments/assets/f4da484c-bb48-4d87-baa6-e65a14415e14" />
 
 ---
 
