@@ -20,7 +20,6 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
 
 <img width="642" height="502" alt="Screenshot 2026-07-14 123315" src="https://github.com/user-attachments/assets/abea21c9-6f87-4896-a6a5-84ae23745721" />
 <img width="628" height="490" alt="Screenshot 2026-07-14 123348" src="https://github.com/user-attachments/assets/10ba5a55-6495-46ed-bd92-84b3c86f9684" />
@@ -36,7 +35,6 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
 
 <img width="686" height="492" alt="Screenshot 2026-07-14 133753" src="https://github.com/user-attachments/assets/b7335d1b-638f-4c0e-8cfb-febbaa3cd9d3" />
 <img width="660" height="474" alt="Screenshot 2026-07-14 133822" src="https://github.com/user-attachments/assets/92fe2249-cdc1-4c55-9cc9-4e0ccc141d69" />
@@ -64,8 +62,6 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
-
 <img width="704" height="588" alt="Screenshot 2026-07-14 125644" src="https://github.com/user-attachments/assets/2671cf59-71a4-4fc1-9e93-b8aa20a63081" />
 
 
@@ -79,14 +75,12 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
 <img width="662" height="698" alt="Screenshot 2026-07-14 131154" src="https://github.com/user-attachments/assets/7d3a4b07-53aa-4060-bb12-07d1551ad81d" />
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
 <img width="634" height="500" alt="Screenshot 2026-07-14 133054" src="https://github.com/user-attachments/assets/02b61129-8318-42d3-9c8b-3e85cb482821" />
 
 ---
@@ -101,7 +95,6 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
 <img width="912" height="664" alt="image" src="https://github.com/user-attachments/assets/ae4e57a5-c15e-4d06-b361-c80278d0bf27" />
 
 ---
