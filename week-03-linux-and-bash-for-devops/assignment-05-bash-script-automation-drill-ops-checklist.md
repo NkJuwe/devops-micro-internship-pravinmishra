@@ -414,7 +414,11 @@ The script combines multiple Bash concepts by using variables to store values li
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-7484350510364459009-g9oe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

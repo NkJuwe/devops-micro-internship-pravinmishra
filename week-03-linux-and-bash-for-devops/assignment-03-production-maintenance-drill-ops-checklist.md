@@ -563,7 +563,11 @@ Proper resource management ensures cost efficiency and reduces the attack surfac
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/nkechi-juwe_devops-nginx-linux-ugcPost-7484731948322639872-d8DB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

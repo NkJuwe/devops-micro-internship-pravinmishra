@@ -131,7 +131,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 ## Your Article
 
@@ -188,7 +188,11 @@ You can start your DevOps journey by joining this [Discord community](https://ln
 
 Paste your link here:
 
+<<<<<<< HEAD
 ` https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M `
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -418,6 +422,7 @@ I will commit to a fixed daily DevOps block from 8:00 AM to 10:00 AM, where I fo
 
 Paste your LinkedIn post link here:
 
+<<<<<<< HEAD
 `Week 1 wasn’t just an assignment. It was a mindset shift.
 
 There’s been a battle of thoughts in my mind this week.
@@ -475,6 +480,9 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 You can start your DevOps journey by joining this [Discord community](https://lnkd.in/ejEMGYV5) ( https://lnkd.in/ejEMGYV5 ).
 
  `
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

@@ -752,7 +752,11 @@ Verify: I reran the triage script to confirm recovery
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `(https://www.linkedin.com/posts/nkechi-juwe_devops-linux-bashscripting-ugcPost-7485386235834793984-JkDO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -767,7 +771,11 @@ Paste your LinkedIn post URL here:
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
+<<<<<<< HEAD
 `_https://github.com/NkJuwe/devops-micro-internship-pravinmishra.git`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
