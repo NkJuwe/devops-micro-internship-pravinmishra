@@ -35,7 +35,7 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+A dedicated branch isolates changes from the main branch, prevents breaking stable code, and allows safe experimentation, review, and rollback without affecting production-ready code.
 
 ---
 
@@ -57,7 +57,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+A fake key is used to simulate a real security risk without exposing actual credentials, ensuring safe learning while still testing detection mechanisms.
 
 ---
 
