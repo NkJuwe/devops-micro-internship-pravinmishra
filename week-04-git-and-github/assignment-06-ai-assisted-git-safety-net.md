@@ -35,7 +35,7 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+A dedicated branch isolates changes from the main branch, prevents breaking stable code, and allows safe experimentation, review, and rollback without affecting production-ready code.
 
 ---
 
@@ -57,7 +57,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+A fake key is used to simulate a real security risk without exposing actual credentials, ensuring safe learning while still testing detection mechanisms.
 
 ---
 
@@ -77,7 +77,7 @@ Add your screenshot here.
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+![git cofig core](<Screenshot 2026-07-24 161754.png>)
 
 ---
 
@@ -85,13 +85,13 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Tracking hooks/pre-commit ensures the hook is shared across the team via the repository, providing consistent enforcement, unlike .git/hooks/ which is local-only and not version-controlled.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+The pre-commit hook intercepts Git commits before they are created, while PreToolUse intercepts tool execution before an action is performed. Both enforce safety rules before an irreversible operation occurs, acting as preventive control mechanisms.
 
 ---
 
