@@ -116,7 +116,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 Paste your Pull Request URL here:
 
-`Add your URL here`
+`https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/362`
 
 ---
 
@@ -128,13 +128,13 @@ Paste your Pull Request URL here:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/nkechi-juwe_dmi-devops-micro-internship-with-agentic-share-7487452607100325888-85KS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+![linkedin post](image-1.png).
 
 ---
 
@@ -151,12 +151,12 @@ Add your screenshot here.
 
 Paste your fork URL here:
 
-`Add your URL here`
+`https://github.com/NkJuwe/devops-micro-internship-interviews.git`
 
 ---
 
 # Completion Checklist
-
+ here
 - [ ] Upstream repository forked to your GitHub account (Screenshot 1)
 - [ ] GitHub authentication configured securely (Screenshot 2)
 - [ ] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
