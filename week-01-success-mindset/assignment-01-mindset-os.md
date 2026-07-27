@@ -180,19 +180,21 @@ She moved to where the real problems are and solved them.
 
 Big thanks to Pravin Mishra and the mentorship team Nkechi Anna Ahanonye Joy Ukpabi for making this opportunity possible. 
 
-P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://lnkd.in/eDVyenKm). 
+Special thanks to:
+• Pravin Mishra – Founder & Mentor
+• Anjana Muthunayake – Lead Co-Mentor
+• Joy Ukpabi – Group 2 Co-Mentor
 
-You can start your DevOps journey by joining this [Discord community](https://lnkd.in/ejEMGYV5) ( https://lnkd.in/ejEMGYV5 ).
+The P.S. line now points to your own graded progress page:
+ https://dmi.pravinmishra.com/s/NkJuwe.html
+Start your DevOps journey:
+https://lnkd.in/dFyndNrh
+
 
 ### Public Link
 
 Paste your link here:
-
-<<<<<<< HEAD
-` https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M `
-=======
-`Add your URL here`
->>>>>>> upstream/main
+`https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M `
 
 ---
 
@@ -420,9 +422,7 @@ I will commit to a fixed daily DevOps block from 8:00 AM to 10:00 AM, where I fo
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
-
-<<<<<<< HEAD
+Paste your LinkedIn post link here: 
 `Week 1 wasn’t just an assignment. It was a mindset shift.
 
 There’s been a battle of thoughts in my mind this week.
@@ -471,24 +471,34 @@ Week 1 didn’t just test my skills.
  It tested my mindset.
 And I didn’t quit.
 
-P.S. DevOps Micro Internship (Cohort 3) - Week 1 in the books. More building ahead with our tutor Pravin Mishra and co-mentors Joy Ukpabi Faith Samson Anjana Muthunayake
+Special thanks to:
+• Pravin Mishra – Founder & Mentor
+• Anjana Muthunayake – Lead Co-Mentor
+• Joy Ukpabi – Group 2 Co-Mentor
+
+Special thanks to:
+• Pravin Mishra – Founder & Mentor
+• Anjana Muthunayake – Lead Co-Mentor
+• Joy Ukpabi – Group 2 Co-Mentor
+
+The P.S. line now points to your own graded progress page:
+ https://dmi.pravinmishra.com/s/NkJuwe.html
+Start your DevOps journey:
+https://lnkd.in/dFyndNrh
 
 #DevOps #TechJourney #GitHub #GrowthMindset
 
-P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://lnkd.in/eDVyenKm). 
 
-You can start your DevOps journey by joining this [Discord community](https://lnkd.in/ejEMGYV5) ( https://lnkd.in/ejEMGYV5 ).
+You can start your DevOps journey by joining this [Discord community](https://lnkd.in/ejEMGYV5) ( https://lnkd.in/ejEMGYV5 ).`
 
- `
-=======
-`Add your URL here`
->>>>>>> upstream/main
+`https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M `
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **[ADD LINK HERE](https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-github-share-7478783483763580928-U6iy/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)**  
+- LinkedIn Post URL: **[(https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-github-share-7478783483763580928-U6iy/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)]**  
+
 - Blog / Medium : **ADD LINK HERE**  
 
 ---

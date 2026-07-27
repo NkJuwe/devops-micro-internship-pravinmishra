@@ -120,18 +120,23 @@ Going forward, I plan to build a habit of structured debugging. Before running a
 
 Overall, this week taught me that progress is not just about getting things to work, but about understanding why they work.
 
+Special thanks to:
+• Pravin Mishra – Founder & Mentor
+• Anjana Muthunayake – Lead Co-Mentor
+• Joy Ukpabi – Group 2 Co-Mentor
+
+The P.S. line now points to your own graded progress page:
+ https://dmi.pravinmishra.com/s/NkJuwe.html
+Start your DevOps journey:
+https://lnkd.in/dFyndNrh
+
 #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 ```
 
 ---
 
 ### LinkedIn Post Link:
-
-<<<<<<< HEAD
 `https://www.linkedin.com/posts/nkechi-juwe_dmibypravinmishra-agenticai-claudecode-share-7481460448911929344-RttQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

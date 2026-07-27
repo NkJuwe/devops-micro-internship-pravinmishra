@@ -143,6 +143,7 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
 <img width="698" height="680" alt="Screenshot 2026-07-21 162737" src="https://github.com/user-attachments/assets/20864f42-3d82-434a-9e9c-698848c526f4" />
+
 <img width="704" height="718" alt="Screenshot 2026-07-21 162758" src="https://github.com/user-attachments/assets/c504adbb-89ae-4ffb-99b5-2a9fe6a943d6" />
 
 ---
@@ -752,11 +753,7 @@ Verify: I reran the triage script to confirm recovery
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD
 `(https://www.linkedin.com/posts/nkechi-juwe_devops-linux-bashscripting-ugcPost-7485386235834793984-JkDO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -771,11 +768,7 @@ Paste your LinkedIn post URL here:
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-<<<<<<< HEAD
 `_https://github.com/NkJuwe/devops-micro-internship-pravinmishra.git`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

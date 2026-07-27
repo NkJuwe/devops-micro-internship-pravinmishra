@@ -222,7 +222,8 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-[Add your URL here...](https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)
+[(https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)
+```.]
 ```
 
 ---
@@ -251,6 +252,16 @@ This is not just learning, it’s structured rebuilding.
 Re-engaged my GitHub after some time away and I’m back in VS Code, using it to practice, deploy, and document my DevOps journey as I go. (Sounds like a big flex or a Super power) 😁 
 
 No shortcuts. Just consistency, discipline, and execution.
+
+Special thanks to:
+• Pravin Mishra – Founder & Mentor
+• Anjana Muthunayake – Lead Co-Mentor
+• Joy Ukpabi – Group 2 Co-Mentor
+
+The P.S. line now points to your own graded progress page:
+ https://dmi.pravinmishra.com/s/NkJuwe.html
+Start your DevOps journey:
+https://lnkd.in/dFyndNrh
 
 ---
 

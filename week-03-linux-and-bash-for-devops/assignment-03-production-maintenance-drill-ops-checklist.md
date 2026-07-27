@@ -291,7 +291,6 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-<img width="1436" height="680" alt="Screenshot 2026-07-19 191917" src="https://github.com/user-attachments/assets/23bc7be9-c4a9-4a83-91a2-ee4fa726685f" />
 <img width="1420" height="836" alt="Screenshot 2026-07-19 195025" src="https://github.com/user-attachments/assets/fff2948f-b124-490e-829f-74f5740c4b13" />
 
 ---
@@ -563,11 +562,7 @@ Proper resource management ensures cost efficiency and reduces the attack surfac
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD
 `https://www.linkedin.com/posts/nkechi-juwe_devops-nginx-linux-ugcPost-7484731948322639872-d8DB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
