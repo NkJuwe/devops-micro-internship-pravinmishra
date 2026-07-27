@@ -103,20 +103,20 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Draw.io
-* <img width="254" height="148" alt="image" src="https://github.com/user-attachments/assets/025b30c7-64dd-446d-aa71-aa7af551c5aa" />
+Draw.io
+[frontend] src="https://github.com/user-attachments/assets/025b30c7-64dd-446d-aa71-aa7af551c5aa"
 
 
 ### Backend
 
-* Draw.io
-*<img width="282" height="150" alt="image" src="https://github.com/user-attachments/assets/b8fe28af-4219-451f-b338-b0aed6ca3f9f" />
+Draw.io
+[backend] src="https://github.com/user-attachments/assets/b8fe28af-4219-451f-b338-b0aed6ca3f9f" />
 
 
 ### Database
 
-* Draw.io
-* <img width="292" height="138" alt="image" src="https://github.com/user-attachments/assets/9d3a80b7-71ea-47c6-a087-98ea5bea2bf7" />
+Draw.io
+[database] src="https://github.com/user-attachments/assets/9d3a80b7-71ea-47c6-a087-98ea5bea2bf7"
 
 
 ---
@@ -146,7 +146,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-DNS (Domain Name System) is like the phonebook of the internet. It translates human-friendly domain names like epicreads.com into machine-readable IP addresses like 52.172.142.222 so browsers can find the correct server. The DNS record type used here is an A record, because it connects a domain name directly to an IPv4 address. This allows users to access the website using a simple name instead of remembering a long IP address and port.
+DNS (Domain Name System) is like the phonebook of the internet. It translates human-friendly domain names like epicreads.com into machine-readable IP addresses like 52.172.142.222 so browsers can find the correct server. 
+
+The DNS record type used here is an A record, because it connects a domain name directly to an IPv4 address. This allows users to access the website using a simple name instead of remembering a long IP address and port.
 
 ---
 
@@ -222,8 +224,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-[(https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)
-```.]
+[(https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)]
 ```
 
 ---

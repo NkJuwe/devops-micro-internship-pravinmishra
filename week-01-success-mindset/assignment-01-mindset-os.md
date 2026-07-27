@@ -194,7 +194,7 @@ https://lnkd.in/dFyndNrh
 ### Public Link
 
 Paste your link here:
-`https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M `
+https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M 
 
 ---
 
@@ -423,7 +423,7 @@ I will commit to a fixed daily DevOps block from 8:00 AM to 10:00 AM, where I fo
 ### LinkedIn Post
 
 Paste your LinkedIn post link here: 
-`Week 1 wasn’t just an assignment. It was a mindset shift.
+Week 1 wasn’t just an assignment. It was a mindset shift.
 
 There’s been a battle of thoughts in my mind this week.
 At some point, I paused and asked myself:
@@ -491,13 +491,13 @@ https://lnkd.in/dFyndNrh
 
 You can start your DevOps journey by joining this [Discord community](https://lnkd.in/ejEMGYV5) ( https://lnkd.in/ejEMGYV5 ).`
 
-`https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M `
+https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **[(https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-github-share-7478783483763580928-U6iy/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)]**  
+- LinkedIn Post URL: (https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-github-share-7478783483763580928-U6iy/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)
 
 - Blog / Medium : **ADD LINK HERE**  
 

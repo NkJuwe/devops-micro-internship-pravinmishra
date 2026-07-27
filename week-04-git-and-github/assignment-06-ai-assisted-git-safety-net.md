@@ -353,7 +353,7 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`https://github.com/NkJuwe/devops-micro-internship-pravinmishra.git`
+https://github.com/NkJuwe/devops-micro-internship-pravinmishra.git
 
 ---
 

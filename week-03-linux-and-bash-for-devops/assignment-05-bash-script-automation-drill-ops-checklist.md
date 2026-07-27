@@ -414,13 +414,13 @@ The script combines multiple Bash concepts by using variables to store values li
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-7484350510364459009-g9oe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
+https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-7484350510364459009-g9oe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-<img width="590" height="746" alt="image" src="https://github.com/user-attachments/assets/8d1b8602-1396-4198-b160-b1c9ee3e0fe1" />
+[linkedin] src="https://github.com/user-attachments/assets/8d1b8602-1396-4198-b160-b1c9ee3e0fe1"
 
 
 ---

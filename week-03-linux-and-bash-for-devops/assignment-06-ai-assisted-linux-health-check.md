@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-<img width="502" height="640" alt="Screenshot 2026-07-20 224631" src="https://github.com/user-attachments/assets/92741cd5-21d5-4107-984e-2e08028669fc" />
+[active nginx]"https://github.com/user-attachments/assets/92741cd5-21d5-4107-984e-2e08028669fc" />
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-<img width="852" height="776" alt="Screenshot 2026-07-20 224907" src="https://github.com/user-attachments/assets/54eb9c6a-7908-40b7-87f0-b45360eb0009" />
+[pwd]"https://github.com/user-attachments/assets/54eb9c6a-7908-40b7-87f0-b45360eb0009"
 
 ---
 
@@ -67,8 +67,9 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-<img width="944" height="812" alt="Screenshot 2026-07-21 160527" src="https://github.com/user-attachments/assets/d0796277-9cd1-4982-ad1c-9c870bd50559" />
-<img width="932" height="808" alt="Screenshot 2026-07-21 160557" src="https://github.com/user-attachments/assets/8b3ea778-718d-4403-8417-2c5f63251d7c" />
+[claude.md]"https://github.com/user-attachments/assets/d0796277-9cd1-4982-ad1c-9c870bd50559"
+
+[claude.md]"https://github.com/user-attachments/assets/8b3ea778-718d-4403-8417-2c5f63251d7c"
 
 ---
 
@@ -106,7 +107,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-<img width="1410" height="770" alt="Screenshot 2026-07-21 012434" src="https://github.com/user-attachments/assets/de717de4-c6f8-4c44-8be7-51be408ff196" />
+[claude code] "https://github.com/user-attachments/assets/de717de4-c6f8-4c44-8be7-51be408ff196"
 
 ---
 
@@ -142,30 +143,30 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-<img width="698" height="680" alt="Screenshot 2026-07-21 162737" src="https://github.com/user-attachments/assets/20864f42-3d82-434a-9e9c-698848c526f4" />
+[variables] "https://github.com/user-attachments/assets/20864f42-3d82-434a-9e9c-698848c526f4"
 
-<img width="704" height="718" alt="Screenshot 2026-07-21 162758" src="https://github.com/user-attachments/assets/c504adbb-89ae-4ffb-99b5-2a9fe6a943d6" />
+[variables] "https://github.com/user-attachments/assets/c504adbb-89ae-4ffb-99b5-2a9fe6a943d6"
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-<img width="1310" height="770" alt="Screenshot 2026-07-21 013517" src="https://github.com/user-attachments/assets/d46f5b7f-06bb-42e4-8c7b-252c2bc24f25" />
+[functions] "https://github.com/user-attachments/assets/d46f5b7f-06bb-42e4-8c7b-252c2bc24f25"
 
-<img width="1260" height="788" alt="Screenshot 2026-07-21 013552" src="https://github.com/user-attachments/assets/ddbb9e94-2eaf-4845-8d4d-27c83c7b2d1a" />
+[functions] "https://github.com/user-attachments/assets/ddbb9e94-2eaf-4845-8d4d-27c83c7b2d1a"
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-<img width="1342" height="776" alt="Screenshot 2026-07-21 013613" src="https://github.com/user-attachments/assets/f089b49a-2442-40f4-abe0-b74758497c43" />
+[summary function exit behavior] "https://github.com/user-attachments/assets/f089b49a-2442-40f4-abe0-b74758497c43"
 
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-<img width="1178" height="810" alt="Screenshot 2026-07-21 013921" src="https://github.com/user-attachments/assets/e49b7012-3677-496e-9078-af2cf1e08bcd" />
+[bash -n script/linux-triage.sh] "https://github.com/user-attachments/assets/e49b7012-3677-496e-9078-af2cf1e08bcd"
 
 ---
 
@@ -331,13 +332,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-<img width="1116" height="840" alt="Screenshot 2026-07-21 123017" src="https://github.com/user-attachments/assets/bd53893d-1122-46b5-be50-860998c3bc54" />
+[./script/linux-triage.sh] "https://github.com/user-attachments/assets/bd53893d-1122-46b5-be50-860998c3bc54"
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-<img width="1044" height="836" alt="Screenshot 2026-07-21 123856" src="https://github.com/user-attachments/assets/322dad34-7772-4b36-b045-79936a8fde31" />
+[final summary] "https://github.com/user-attachments/assets/322dad34-7772-4b36-b045-79936a8fde31"
 
 
 ---
@@ -445,13 +446,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-<img width="1046" height="410" alt="Screenshot 2026-07-21 123223" src="https://github.com/user-attachments/assets/6ce3197e-b465-40ac-bab2-230e809dbcf1" />
+[skill md] "https://github.com/user-attachments/assets/6ce3197e-b465-40ac-bab2-230e809dbcf1" 
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-<img width="1428" height="540" alt="Screenshot 2026-07-21 125641" src="https://github.com/user-attachments/assets/e75b5f06-a10a-4045-b438-965d25fbe4d9" />
+[linux triage output] "https://github.com/user-attachments/assets/e75b5f06-a10a-4045-b438-965d25fbe4d9"
 
 ---
 
@@ -561,19 +562,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-<img width="700" height="282" alt="image" src="https://github.com/user-attachments/assets/ca8dddb1-0921-4750-b719-01cad94bda14" />
+[nginx inactive]"https://github.com/user-attachments/assets/ca8dddb1-0921-4750-b719-01cad94bda14"
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-<img width="1064" height="802" alt="Screenshot 2026-07-21 124605" src="https://github.com/user-attachments/assets/a935d995-526f-4109-b179-eb4c2c292891" />
+[first linux triage] "https://github.com/user-attachments/assets/a935d995-526f-4109-b179-eb4c2c292891"
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-<img width="1016" height="414" alt="Screenshot 2026-07-21 124819" src="https://github.com/user-attachments/assets/b874a7a7-f62d-4a0d-b040-54d1a73577e0" />
+[incident failure report] "https://github.com/user-attachments/assets/b874a7a7-f62d-4a0d-b040-54d1a73577e0"
 
 ---
 
@@ -623,29 +624,28 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-<img width="714" height="154" alt="Screenshot 2026-07-21 125201" src="https://github.com/user-attachments/assets/a33f9063-d2b8-4ede-babc-32ed26cf2637" />
+[nginx active] "https://github.com/user-attachments/assets/a33f9063-d2b8-4ede-babc-32ed26cf2637"
 
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-<img width="1428" height="540" alt="Screenshot 2026-07-21 125641" src="https://github.com/user-attachments/assets/27badb03-08cd-4506-ab88-7e3605d5645f" />
+[second /linux-triage] "https://github.com/user-attachments/assets/27badb03-08cd-4506-ab88-7e3605d5645f"
 
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-<img width="1270" height="856" alt="Screenshot 2026-07-21 125754" src="https://github.com/user-attachments/assets/41391911-efba-41f7-a3dd-f8cb080c4262" />
+[ls -lah reports] "https://github.com/user-attachments/assets/41391911-efba-41f7-a3dd-f8cb080c4262"
 
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-<img width="1286" height="606" alt="Screenshot 2026-07-21 130020" src="https://github.com/user-attachments/assets/79af3689-d3d1-4c2d-8b48-57e8451db63f" />
-
+[incident summary] "https://github.com/user-attachments/assets/79af3689-d3d1-4c2d-8b48-57e8451db63f"
 
 ---
 
@@ -753,13 +753,13 @@ Verify: I reran the triage script to confirm recovery
 
 Paste your LinkedIn post URL here:
 
-`(https://www.linkedin.com/posts/nkechi-juwe_devops-linux-bashscripting-ugcPost-7485386235834793984-JkDO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)`
+(https://www.linkedin.com/posts/nkechi-juwe_devops-linux-bashscripting-ugcPost-7485386235834793984-JkDO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-<img width="554" height="716" alt="image" src="https://github.com/user-attachments/assets/679ea131-2bcc-4856-a519-531048945f12" />
+[linkedin post]src="https://github.com/user-attachments/assets/679ea131-2bcc-4856-a519-531048945f12" />
 
 
 ---
@@ -768,7 +768,7 @@ Paste your LinkedIn post URL here:
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`_https://github.com/NkJuwe/devops-micro-internship-pravinmishra.git`
+[repo url] https://github.com/NkJuwe/devops-micro-internship-pravinmishra.git
 
 ---
 

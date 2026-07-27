@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-<img width="1322" height="672" alt="Screenshot 2026-07-19 170249" src="https://github.com/user-attachments/assets/17e50d1c-afc7-4cb4-88b4-415542ad7e63" />
+[full-name] src="https://github.com/user-attachments/assets/17e50d1c-afc7-4cb4-88b4-415542ad7e63"
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-<img width="694" height="210" alt="Screenshot 2026-07-19 182917" src="https://github.com/user-attachments/assets/1bd27cd8-6aa9-40dd-a612-e37e1bba23b1" />
+[ip-a] src="https://github.com/user-attachments/assets/1bd27cd8-6aa9-40dd-a612-e37e1bba23b1"
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-<img width="1428" height="850" alt="Screenshot 2026-07-19 183437" src="https://github.com/user-attachments/assets/046302b7-a598-43d2-93d9-3b5b177ec28c" />
+[sudo-ss] src="https://github.com/user-attachments/assets/046302b7-a598-43d2-93d9-3b5b177ec28c"
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-<img width="458" height="54" alt="Screenshot 2026-07-19 183818" src="https://github.com/user-attachments/assets/895096fe-f221-4fc5-855e-6adf75236db5" />
+[sudo-ufw] src="https://github.com/user-attachments/assets/895096fe-f221-4fc5-855e-6adf75236db5"
 
 ---
 
@@ -81,19 +81,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![systemctl status nginx no-pager](<Screenshot 2026-07-19 183926.png>)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-<img width="980" height="312" alt="Screenshot 2026-07-19 183926" src="https://github.com/user-attachments/assets/fdbced9e-9619-443f-8baa-05ac5071da79" />
+[sudo nginx -t] src="https://github.com/user-attachments/assets/fdbced9e-9619-443f-8baa-05ac5071da79"
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-<img width="1402" height="56" alt="image" src="https://github.com/user-attachments/assets/2ffca8b7-501e-4eaf-a7b2-a6a6e4a3a4cc" />
+[sudo ss -lptn] src="https://github.com/user-attachments/assets/2ffca8b7-501e-4eaf-a7b2-a6a6e4a3a4cc"
 
 ---
 
@@ -132,19 +132,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-<img width="1440" height="440" alt="Screenshot 2026-07-19 185231" src="https://github.com/user-attachments/assets/8d83092d-9f4b-49d9-a502-d20197923ddc" />
+[sudo tail -n access log] src="https://github.com/user-attachments/assets/8d83092d-9f4b-49d9-a502-d20197923ddc"
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-<img width="1440" height="532" alt="Screenshot 2026-07-19 185507" src="https://github.com/user-attachments/assets/c569cee3-1318-45aa-82a6-96a8eaf61763" />
+[sudo tail -n error log] src="https://github.com/user-attachments/assets/c569cee3-1318-45aa-82a6-96a8eaf61763"
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-<img width="1440" height="676" alt="Screenshot 2026-07-19 185623" src="https://github.com/user-attachments/assets/571662a4-8ac6-4a09-8f2a-bb344ade3492" />
+[sudo journalctl] src="https://github.com/user-attachments/assets/571662a4-8ac6-4a09-8f2a-bb344ade3492"
 
 ---
 
@@ -212,25 +212,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-<img width="790" height="532" alt="Screenshot 2026-07-19 190730" src="https://github.com/user-attachments/assets/1dcd0f69-da32-4b4c-bbd7-b3e4c805431d" />
+[uptime] src="https://github.com/user-attachments/assets/1dcd0f69-da32-4b4c-bbd7-b3e4c805431d"
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-<img width="734" height="74" alt="Screenshot 2026-07-19 190753" src="https://github.com/user-attachments/assets/ca1abbff-f369-44ab-bfd8-3208e55e7016" />
+[free -h] src="https://github.com/user-attachments/assets/ca1abbff-f369-44ab-bfd8-3208e55e7016"
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-<img width="734" height="506" alt="Screenshot 2026-07-19 190753" src="https://github.com/user-attachments/assets/261aff11-39a1-4e7e-a7da-ac4dcff4ee84" />
+[df -h] src="https://github.com/user-attachments/assets/261aff11-39a1-4e7e-a7da-ac4dcff4ee84"
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-<img width="780" height="544" alt="Screenshot 2026-07-19 190820" src="https://github.com/user-attachments/assets/c9ebb27e-0484-4320-8d26-4b4ecf15cb9d" />
+[sudo du -sh] src="https://github.com/user-attachments/assets/c9ebb27e-0484-4320-8d26-4b4ecf15cb9d"
 
 ---
 
@@ -285,19 +285,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-<img width="576" height="178" alt="Screenshot 2026-07-19 191840" src="https://github.com/user-attachments/assets/824785dc-7752-436b-b086-e4527fb79f72" />
+[ls -lah] src="https://github.com/user-attachments/assets/824785dc-7752-436b-b086-e4527fb79f72"
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-<img width="1420" height="836" alt="Screenshot 2026-07-19 195025" src="https://github.com/user-attachments/assets/fff2948f-b124-490e-829f-74f5740c4b13" />
+[grep -R] src="https://github.com/user-attachments/assets/fff2948f-b124-490e-829f-74f5740c4b13"
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-<img width="646" height="86" alt="Screenshot 2026-07-19 200157" src="https://github.com/user-attachments/assets/3b5093e4-7e35-4142-a34b-75f95efb03e8" />
+[grep -n] src="https://github.com/user-attachments/assets/3b5093e4-7e35-4142-a34b-75f95efb03e8"
 
 ---
 
@@ -353,7 +353,7 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-<img width="732" height="140" alt="Screenshot 2026-07-19 201753" src="https://github.com/user-attachments/assets/60a9eacf-953f-4f9a-be24-f452e987824f" />
+[sudo nginx -t] src="https://github.com/user-attachments/assets/60a9eacf-953f-4f9a-be24-f452e987824f"
 
 ---
 
@@ -365,7 +365,7 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-<img width="1094" height="854" alt="Screenshot 2026-07-19 211446" src="https://github.com/user-attachments/assets/bbeb6edf-cf25-4d56-9984-2d324f6b1df8" />
+[curl -i ok] src="https://github.com/user-attachments/assets/bbeb6edf-cf25-4d56-9984-2d324f6b1df8"
 
 ---
 
@@ -437,13 +437,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-<img width="1058" height="848" alt="image" src="https://github.com/user-attachments/assets/275640b0-076d-4965-acf9-325845222384" />
+[curl -i failure] src="https://github.com/user-attachments/assets/275640b0-076d-4965-acf9-325845222384"
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-<img width="860" height="828" alt="Screenshot 2026-07-19 212448" src="https://github.com/user-attachments/assets/08e8b5e8-f73d-4d68-a546-70a8ada23f6a" />
+[curl -i ok] src="https://github.com/user-attachments/assets/08e8b5e8-f73d-4d68-a546-70a8ada23f6a"
 
 ---
 
@@ -562,13 +562,13 @@ Proper resource management ensures cost efficiency and reduces the attack surfac
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/nkechi-juwe_devops-nginx-linux-ugcPost-7484731948322639872-d8DB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
+https://www.linkedin.com/posts/nkechi-juwe_devops-nginx-linux-ugcPost-7484731948322639872-d8DB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-<img width="564" height="772" alt="image" src="https://github.com/user-attachments/assets/0112c684-c229-45d2-a0c2-4a288465c7ef" />
+[linkedin] src="https://github.com/user-attachments/assets/0112c684-c229-45d2-a0c2-4a288465c7ef"
 
 ---
 

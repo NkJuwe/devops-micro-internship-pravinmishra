@@ -20,7 +20,7 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-<img width="294" height="276" alt="image" src="https://github.com/user-attachments/assets/5a1031c9-a4b0-4742-b41b-7411453453cb" />
+[claude` folder structure] src="https://github.com/user-attachments/assets/5a1031c9-a4b0-4742-b41b-7411453453cb"
 
 ---
 
@@ -34,7 +34,7 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-<img width="1084" height="238" alt="image" src="https://github.com/user-attachments/assets/77964e88-e011-4030-8a68-071fa0d20a35" />
+[user-prompt-guard.sh] src="https://github.com/user-attachments/assets/77964e88-e011-4030-8a68-071fa0d20a35"
 
 ---
 
@@ -49,7 +49,7 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
 
-<img width="1046" height="198" alt="image" src="https://github.com/user-attachments/assets/5dd95308-4700-46ef-bd9b-a2ae41f5ba9f" />
+[pre-tool-guard.sh] src="https://github.com/user-attachments/assets/5dd95308-4700-46ef-bd9b-a2ae41f5ba9f"
 
 ---
 
@@ -64,7 +64,7 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
 
-<img width="672" height="246" alt="Screenshot 2026-07-10 140802" src="https://github.com/user-attachments/assets/7f06d572-9509-456a-a07b-6648491aaeec" />
+[post-tool-logger.sh] src="https://github.com/user-attachments/assets/7f06d572-9509-456a-a07b-6648491aaeec" 
 
 ---
 

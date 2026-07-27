@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-<img width="2880" height="1800" alt="Screenshot 2026-07-08 141720" src="https://github.com/user-attachments/assets/f4da484c-bb48-4d87-baa6-e65a14415e14" />
+[linkedin] src="https://github.com/user-attachments/assets/f4da484c-bb48-4d87-baa6-e65a14415e14"
 
 ---
 
@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-[Uploading Screenshot 2026-07-08 141720.png…]()
+[Uploading Screenshot 2026-07-08 141720.png…]
 
 
 ---
@@ -136,7 +136,8 @@ https://lnkd.in/dFyndNrh
 ---
 
 ### LinkedIn Post Link:
-`https://www.linkedin.com/posts/nkechi-juwe_dmibypravinmishra-agenticai-claudecode-share-7481460448911929344-RttQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M`
+
+https://www.linkedin.com/posts/nkechi-juwe_dmibypravinmishra-agenticai-claudecode-share-7481460448911929344-RttQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M
 
 ---
 
