@@ -61,7 +61,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Preview — what your full stack looks like:**
 
-[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
+[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
 
 ---
 
@@ -79,8 +79,8 @@ Week 02 → Agentic AI with Claude Code
 Week 03 → Linux & Bash for DevOps
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-Week 04 → Git & GitHub
-[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
+<!-- Week 04 → Git & GitHub -->
+<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -130,9 +130,9 @@ Week 04 → Git & GitHub
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | (https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M) | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | — |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/nkechi-juwe_dmibypravinmishra-agenticai-claudecode-activity-7481460451307016194-9Vzj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | (https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M) | https://medium.com/@nikkyjuwe/from-ip-address-to-domain-name-34ec9fdc5ab9 |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/nkechi-juwe_few-years-from-now-this-wont-read-like-ugcPost-7478535657821495296-TRlr/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | https://medium.com/@nikkyjuwe/i-didnt-break-git-i-didn-t-understand-the-system-dbf869156a98 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/nkechi-juwe_dmibypravinmishra-agenticai-claudecode-activity-7481460451307016194-9Vzj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | https://medium.com/@nikkyjuwe/setting-up-an-agentic-ai-workflow-with-claude-code-25251d6b0d9b |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | 
 https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-7484350510364459009-g9oe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | — |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | (https://www.linkedin.com/posts/nkechi-juwe_dmi-devops-micro-internship-with-agentic-share-7487289872966156288-Cxrt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M) | — |
