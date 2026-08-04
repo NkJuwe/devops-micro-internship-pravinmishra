@@ -20,7 +20,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-[node -v && npm -v] src="https://github.com/user-attachments/assets/7efd4d3a-fecb-43b5-9763-f0c0dd08ac35" />
+[node -v && npm -v] src="https://github.com/user-attachments/assets/7efd4d3a-fecb-43b5-9763-f0c0dd08ac35"
 
 ---
 
@@ -34,7 +34,7 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-[systemctl-status] src="https://github.com/user-attachments/assets/cdf4700e-2398-4938-b8d3-099caa8dccf4" />
+[systemctl-status] src="https://github.com/user-attachments/assets/cdf4700e-2398-4938-b8d3-099caa8dccf4"
 
 ---
 
@@ -163,17 +163,17 @@ https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-748
 
 # Completion Checklist
 
-- [ ] Node.js and npm installed and verified (Screenshot 1)
-- [ ] Nginx installed and running (Screenshot 2)
-- [ ] Repository cloned and files verified (Screenshot 3)
-- [ ] App.js updated with full name and date (Screenshot 4)
-- [ ] Production build generated (Screenshot 5)
-- [ ] Build files deployed to Nginx web root (Screenshot 6)
-- [ ] Nginx configured and active (Screenshots 7 & 8)
-- [ ] Public IP retrieved (Screenshot 9)
-- [ ] React app accessible in browser with personal details visible (Screenshot 10)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] Node.js and npm installed and verified (Screenshot 1)
+- [x] Nginx installed and running (Screenshot 2)
+- [x] Repository cloned and files verified (Screenshot 3)
+- [x] App.js updated with full name and date (Screenshot 4)
+- [x] Production build generated (Screenshot 5)
+- [x] Build files deployed to Nginx web root (Screenshot 6)
+- [x] Nginx configured and active (Screenshots 7 & 8)
+- [x] Public IP retrieved (Screenshot 9)
+- [x] React app accessible in browser with personal details visible (Screenshot 10)
+- [x] LinkedIn post published and URL submitted
+- [x] No sensitive data exposed
 
 ---
 

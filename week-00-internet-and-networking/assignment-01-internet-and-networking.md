@@ -226,7 +226,7 @@ Paste your LinkedIn post URL here:
 (https://www.linkedin.com/posts/nkechi-juwe_devops-techjourney-cloudcomputing-activity-7474268315809591296-iMnC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M)
 
 ```
-
+https://medium.com/@nikkyjuwe/from-ip-address-to-domain-name-34ec9fdc5ab9
 ---
 
 ## LinkedIn Post Backup Copy
