@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![create project](<Screenshot 2026-08-07 211128.png>)
 
 ---
 
@@ -28,7 +28,10 @@ Add your screenshot here.
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+PO: Prioritized highest-impact UI changes that improve clarity, conversion, and user trust.
+SM: Ensured structured workflow by defining scope, maintaining backlog order, and enforcing sprint discipline.
+Dev Lead: Implemented core UI improvements including hero CTA, button visibility, and search usability enhancements.
+DevOps Lead: Deployed updates to EC2, verified live changes, and ensured each feature was production-ready with proof.
 
 ---
 
@@ -42,8 +45,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
-
+![project](<Screenshot 2026-08-07 210632.png>)
 ---
 
 # Task 3 — Create the Epic
@@ -56,7 +58,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![epic](<Screenshot 2026-08-07 210254-1.png>)
 
 ---
 
@@ -70,13 +72,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![stories](<Screenshot 2026-08-07 220626.png>)
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![story point n criteria](<Screenshot 2026-08-07 220659.png>)
 
 ---
 
@@ -90,7 +92,7 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+![backlog](<Screenshot 2026-08-07 222633.png>)
 
 ---
 
@@ -98,7 +100,25 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+SMGJGJNJ-6 — Remote badge (2 points)
+
+Adding a conditional “REMOTE” badge requires UI changes plus logic to display only for qualifying roles; I briefly considered 1 point, but the condition + placement across cards justifies 2.
+
+SMGJGJNJ-7 — Posted on <date> text (1 point)
+
+This is a simple text addition with minimal effort and no logic; no real debate here since it’s a straightforward UI enhancement.
+
+SMGJGJNJ-8 — Advanced search labels (2 points)
+
+Multiple labels and placeholders need updating and verifying across the search UI; I considered 1 point initially, but the number of fields and need for consistency pushed it to 2.
+
+SMGJGJNJ-9 — Job detail Apply Now CTA (1 point)
+
+This involves adding a single button with a link and ensuring visibility; no complex logic, so it clearly fits 1 point with no strong debate.
+
+SMGJGJNJ-10 — Footer trust links (1 point)
+
+Adding “About” and “Contact” links is a small HTML update; I briefly checked if layout adjustments might increase effort, but it remains a simple 1-point task.
 
 ---
 
@@ -112,13 +132,13 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![sprint 1](<Screenshot 2026-08-07 222739.png>)
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![sub-tasks](<Screenshot 2026-08-07 222803.png>)
 
 ---
 
@@ -132,7 +152,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![burndown chart](<Screenshot 2026-08-07 223006.png>)
 
 ---
 

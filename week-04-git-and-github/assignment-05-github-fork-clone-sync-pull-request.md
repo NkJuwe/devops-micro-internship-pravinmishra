@@ -130,6 +130,9 @@ Paste your LinkedIn post URL here:
 
 https://www.linkedin.com/posts/nkechi-juwe_dmi-devops-micro-internship-with-agentic-share-7487452607100325888-85KS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M
 
+Blog post URL:
+https://medium.com/@nikkyjuwe/building-and-deploying-codetrack-a-beginner-friendly-devops-journey-from-git-to-aws-ec2-8a4202823a89
+
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
