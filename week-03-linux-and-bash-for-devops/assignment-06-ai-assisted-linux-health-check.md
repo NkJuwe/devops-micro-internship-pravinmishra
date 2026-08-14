@@ -761,7 +761,8 @@ https://www.linkedin.com/posts/nkechi-juwe_devops-linux-bashscripting-ugcPost-74
 
 [linkedin post]src="https://github.com/user-attachments/assets/679ea131-2bcc-4856-a519-531048945f12"
 
-- Blog / Medium : https://medium.com/@nikkyjuwe/from-manual-devops-to-agentic-automation-building-securing-and-deploying-with-claude-code-186a739fda20 
+- Blog / Medium :  
+https://medium.com/@nikkyjuwe/building-a-bash-based-linux-incident-triage-workflow-with-claude-code-on-aws-ec2-week-3-4eb841361d80?sharedUserId=nikkyjuwe
 
 ---
 
