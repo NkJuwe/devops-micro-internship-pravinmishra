@@ -90,7 +90,7 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 #### Screenshot 6 — Browser showing the live website with the S3 website endpoint visible in the address bar
 
-![live website s3](<Screenshot 2026-08-10 231410.png>)
+![live website s3](<Screenshot 2026-08-10 231410.jpg>)
 
 ---
 
@@ -104,7 +104,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 #### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
-![updated text](<Screenshot 2026-08-11 210424.png>)
+![updated text](<Screenshot 2026-08-11 210424.jpg>)
 
 ---
 

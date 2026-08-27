@@ -20,31 +20,31 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
+![vpc](<Screenshot 2026-08-17 163235.png>)
 
 ---
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
 
-Add your screenshot here.
+![subnets](<Screenshot 2026-08-18 081358.png>)
 
 ---
 
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
-Add your screenshot here.
+![pub-rt](<Screenshot 2026-08-18 092605.png>)
 
 ---
 
 #### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
 
-Add your screenshot here.
+![priv-rt](<Screenshot 2026-08-18 093212.png>)
 
 ---
 
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
-Add your screenshot here.
+![nat gateway stats](<Screenshot 2026-08-18 084628.png>)
 
 ---
 
@@ -58,19 +58,19 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
+![alb sg inbound](<Screenshot 2026-08-18 110329.png>)
 
 ---
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
+![ec2 sg inbound](<Screenshot 2026-08-18 110739.png>)
 
 ---
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
+![rds sg inbound](<Screenshot 2026-08-18 111021.png>)
 
 ---
 
@@ -84,13 +84,13 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
+![rds summary](<Screenshot 2026-08-18 133518.png>)
 
 ---
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
+![rds connectivity](<Screenshot 2026-08-18 133547.png>)
 
 ---
 
@@ -104,13 +104,13 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
+![launch temp](<Screenshot 2026-08-18 185241.png>)
 
 ---
 
 #### Screenshot 12 — A running instance created from the template showing that the application responds on port 80 through a local test or browser using its public IP
 
-Add your screenshot here.
+![browser port 80](<Screenshot 2026-08-18 202100.png>)
 
 ---
 
@@ -124,13 +124,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
+![alb](<Screenshot 2026-08-18 210524.png>)
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
+![tg](<Screenshot 2026-08-18 210824.png>)
 
 ---
 
@@ -144,13 +144,13 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![asg](<Screenshot 2026-08-18 212309.png>)
 
 ---
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![ec2 instances AZ](<Screenshot 2026-08-18 212607.png>)
 
 ---
 
@@ -164,13 +164,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![alb dns](<Screenshot 2026-08-18 214133.png>)
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![db query](<Screenshot 2026-08-18 215815.png>)
 
 ---
 
@@ -186,25 +186,25 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
-Add your screenshot here.
+![terminated and new ec2](<Screenshot 2026-08-18 221144.png>)
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![healthy targets](<Screenshot 2026-08-18 221323.png>)
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![instance removed](<Screenshot 2026-08-18 230108.png>)
 
 ---
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![alb dns active (instance removal)](<Screenshot 2026-08-18 230309.png>)
 
 ---
 
@@ -218,7 +218,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-Add your screenshot here.
+![Epicbook](<EpicBook AWS Architecture Diagram.jpg>)
 
 ---
 
@@ -226,19 +226,30 @@ Add your screenshot here.
 
 Summarize the VPC and subnets across the two Availability Zones.
 
-Write your answer here.
+I deployed a highly available WordPress application on AWS using a custom VPC spanning two Availability Zones. The web tier runs on EC2 instances managed by an Auto Scaling Group and receives traffic through an Application Load Balancer. Amazon RDS for MySQL provides the shared database layer in a private Multi-AZ configuration.
+
+I validated the application end-to-end through the ALB, including WordPress database write and read operations. I also tested high availability by verifying that the application remained available through the load balancer when an EC2 instance was removed and replaced by the Auto Scaling Group.
+
+VPC and subnet summary
+The solution uses a custom VPC with CIDR 10.0.0.0/16 distributed across two Availability Zones. Public subnets host the internet-facing Application Load Balancer, while the web tier is deployed across the two Availability Zones through the Auto Scaling Group. The database tier uses private subnets and is isolated from direct internet access.
+
+If your actual architecture has two public web subnets and two private DB subnets, state that explicitly in your final version. You should match your AWS console rather than assume.
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+An Application Load Balancer provides the public entry point for the application and distributes HTTP traffic across healthy EC2 targets. The Auto Scaling Group maintains the required web capacity using the HA-WEB-Launch-Template, with a desired capacity of 2 instances distributed across two Availability Zones. Health checks ensure that traffic is directed only to healthy instances.
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+Amazon RDS for MySQL provides the application's shared database. The database is deployed using a private Multi-AZ configuration, preventing direct public access while allowing the EC2 web tier to communicate with MySQL over port 3306 through the appropriate security group relationship.
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+Test 1: Application accessibility through ALB
+The WordPress application successfully loaded through the Application Load Balancer DNS name, confirming that the ALB could route traffic to healthy EC2 instances.
+
+Test 2: Instance failure/replacement
+After an EC2 instance was terminated, the Auto Scaling Group detected the reduced capacity and launched a replacement instance. The application remained accessible through the ALB, demonstrating the intended self-healing behavior of the web tier.
 
 ---
 
@@ -254,13 +265,13 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-7495812214197686272-BQhF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![linkedin post](<Screenshot 2026-08-19 131055.png>)
 
 ---
 
@@ -273,17 +284,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: VPC, four subnets, IGW, NAT Gateway, and route tables created (Screenshots 1–5)
-- [ ] Task 2: Least-privilege ALB, EC2, and RDS security groups created (Screenshots 6–8)
-- [ ] Task 3: Private Multi-AZ RDS created (Screenshots 9–10)
-- [ ] Task 4: Self-configuring Launch Template created and tested (Screenshots 11–12)
-- [ ] Task 5: ALB created across both public subnets (Screenshots 13–14)
-- [ ] Task 6: Auto Scaling Group running two instances across two AZs (Screenshots 15–16)
-- [ ] Task 7: Application verified through the ALB with a database read and write (Screenshots 17–18)
-- [ ] Task 8: Both high-availability tests completed (Screenshots 19–22)
-- [ ] Task 9: Architecture and test-results summary completed (Screenshot 23 & Notes)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] Task 1: VPC, four subnets, IGW, NAT Gateway, and route tables created (Screenshots 1–5)
+- [x] Task 2: Least-privilege ALB, EC2, and RDS security groups created (Screenshots 6–8)
+- [x] Task 3: Private Multi-AZ RDS created (Screenshots 9–10)
+- [x] Task 4: Self-configuring Launch Template created and tested (Screenshots 11–12)
+- [x] Task 5: ALB created across both public subnets (Screenshots 13–14)
+- [x] Task 6: Auto Scaling Group running two instances across two AZs (Screenshots 15–16)
+- [x] Task 7: Application verified through the ALB with a database read and write (Screenshots 17–18)
+- [x] Task 8: Both high-availability tests completed (Screenshots 19–22)
+- [x] Task 9: Architecture and test-results summary completed (Screenshot 23 & Notes)
+- [x] LinkedIn post published and URL submitted
+- [x] No sensitive data exposed
 
 ---
 

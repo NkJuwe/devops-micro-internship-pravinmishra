@@ -137,7 +137,7 @@ Week 05 → DevOps Lifecycle & Agile
 https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-7484350510364459009-g9oe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | https://medium.com/@nikkyjuwe/building-a-bash-based-linux-incident-triage-workflow-with-claude-code-on-aws-ec2-week-3-4eb841361d80?sharedUserId=nikkyjuwe |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | (https://www.linkedin.com/posts/nkechi-juwe_dmi-devops-micro-internship-with-agentic-share-7487289872966156288-Cxrt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M) | https://medium.com/@nikkyjuwe/building-and-deploying-codetrack-a-beginner-friendly-devops-journey-from-git-to-aws-ec2-8a4202823a89 |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/nkechi-juwe_devops-claudecode-mcp-ugcPost-7492560754517303298-roCd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | https://medium.com/@nikkyjuwe/from-jira-ticket-to-live-deployment-how-i-built-a-devops-workflow-with-jira-ec2-and-claude-code-828761d0eb04?sharedUserId=nikkyjuwe |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed | ✅ Completed | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |

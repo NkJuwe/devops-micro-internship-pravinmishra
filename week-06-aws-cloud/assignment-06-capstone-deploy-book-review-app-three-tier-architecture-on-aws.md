@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![booreview arc](<AWS Book Review App Architecture.jpg>)
 
 ---
 
@@ -34,13 +34,47 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+Europe (Stockholm) — eu-north-1
 
 ---
 
 **Services:**
 
-Write your answer here.
+Networking
+Amazon VPC — Custom VPC for the application infrastructure.
+Amazon VPC Subnets — Public and private subnets across Availability Zones.
+Internet Gateway (IGW) — Internet connectivity for the public subnets.
+NAT Gateway — Outbound internet connectivity for resources in private subnets.
+Route Tables — Controlled routing between public/private subnets and gateways.
+
+Compute
+Amazon EC2 — Hosted the web/frontend and application/backend components.
+EC2 Launch Template — Configuration template used for EC2 instance deployment.
+EC2 Auto Scaling Group — Managed the application EC2 capacity and instance availability.
+
+Load Balancing
+Application Load Balancer (ALB) — Internet-facing ALB used as the public entry point.
+Internal Application Load Balancer — Routed requests privately from the web tier to the application tier.
+Target Groups — Registered EC2 instances and performed health checks for the ALBs.
+
+Security
+Amazon EC2 Security Groups — Controlled traffic between the ALB, EC2 instances, and other application components.
+Amazon RDS Security Group — Restricted database access to authorized application resources.
+
+Database
+Amazon RDS for MySQL — Hosted the Book Review application's MySQL database.
+DB Subnet Group — Associated the RDS database with the designated database subnets.
+Application/Server Components Running on EC2
+
+These are not separate AWS services, but they were part of the deployed application stack:
+
+Nginx — Reverse proxy/web server.
+Node.js/Express — Backend API.
+Next.js — Frontend application.
+PM2 — Node.js process manager.
+Region
+
+AWS Region used: eu-north-1 — Europe (Stockholm)
 
 ---
 
@@ -56,7 +90,13 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+http://book-review-web-alb-887968689.eu-north-1.elb.amazonaws.com
+
+This is the internet-facing Web ALB that serves as the public entry point to your Book Review application.
+
+The request flow is:
+
+Internet → Public Web ALB → Web EC2/Nginx → Internal ALB → Application EC2/Node.js → RDS MySQL
 
 ---
 
@@ -70,37 +110,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![web](<Screenshot 2026-08-22 123318.png>)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![app](<Screenshot 2026-08-22 123621-1.png>)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![public](<Screenshot 2026-08-22 122808.png>)
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![internal](<Screenshot 2026-08-22 123442.png>)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![rds+replica](<Screenshot 2026-08-22 200557.png>)
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![app ui](<Screenshot 2026-08-22 194442.png>)
 
 ---
 
@@ -114,19 +154,143 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+The final Book Review application was successfully deployed on AWS using a multi-tier architecture. The public-facing application was accessible through the internet-facing Application Load Balancer (ALB), with Nginx serving as the reverse proxy on the web tier. The Next.js frontend communicated with the Node.js/Express backend through the internal ALB, while the backend connected to the Amazon RDS MySQL database.
+
+The final deployment included:
+
+Custom VPC with public and private subnets
+EC2 instances hosting the application components
+Internet-facing and internal ALBs
+Target groups with health checks
+Nginx reverse proxy
+Next.js frontend
+Node.js/Express backend
+PM2 process management
+Amazon RDS MySQL
+Security groups controlling traffic between tiers
+User registration and login functionality
+Book API successfully returning data from the database
+
+The application was tested at multiple layers using direct backend requests, Nginx, ALB routing, and the public application endpoint.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+1. CORS errors during registration and login
+
+Issue:
+Browser requests to the registration and login endpoints returned errors because the frontend origin was not correctly included in the backend's allowed CORS origins.
+
+Fix:
+Updated ALLOWED_ORIGINS in the backend .env file to include the correct ALB origin and restarted the backend with PM2.
+
+2. Frontend API routing
+
+Issue:
+The frontend initially used a direct backend URL, which was not appropriate for the final load-balanced architecture.
+
+Fix:
+Configured the frontend to use:
+
+NEXT_PUBLIC_API_URL=/api
+
+This allowed browser requests to go through Nginx and the appropriate load-balancing layer.
+
+3. Nginx 504 Gateway Timeout
+
+Issue:
+Requests such as /api/books returned 504 Gateway Timeout.
+
+Investigation:
+Checked the Nginx configuration and logs and identified that Nginx was unable to reach the internal ALB upstream.
+
+Tools used:
+curl, nginx -T, and /var/log/nginx/error.log
+
+Fix:
+Validated the internal ALB, target group, routing, security groups, and connectivity between the web tier and application tier until the upstream connection was restored.
+
+4. ALB target health issues
+
+Issue:
+The application target became unhealthy with Request timed out reported by the target group.
+
+Investigation:
+Checked the registered target, health-check configuration, application port, EC2 processes, and security-group rules.
+
+Fix:
+Verified that the backend was listening on port 3001, that the application process was running, and that the appropriate traffic was permitted between the load balancer and EC2 instance.
+
+5. PM2 application/process issues
+
+Issue:
+The frontend and backend processes experienced restarts and port conflicts during deployment.
+
+Fix:
+Used PM2 to inspect process status and logs, restarted the affected processes, and verified that both frontend and backend processes remained online.
+
+6. Database connectivity
+
+Issue:
+The backend initially experienced database connection/authentication issues while connecting to Amazon RDS MySQL.
+
+Fix:
+Verified the RDS endpoint, database credentials, security-group access, database configuration, and SSL connection settings. The backend subsequently connected successfully and the database schema was updated.
+
+7. Local versus production testing
+
+Issue:
+The application worked when tested directly on the EC2 instance but did not always work through the ALB/browser.
+
+Fix:
+Tested each layer independently instead of assuming that a working local API meant the complete deployment was healthy.
+
+This helped isolate problems between:
+
+Browser → Web ALB → Nginx → Internal ALB → Node.js → RDS
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Console
+Amazon VPC
+EC2
+Application Load Balancer
+Target Groups
+Security Groups
+Amazon RDS
+Route tables and subnet configuration
+
+Linux/Server troubleshooting
+curl — Tested API endpoints and connectivity
+ss — Verified listening ports
+ps — Checked running processes
+pm2 status — Checked application processes
+pm2 logs — Investigated application errors
+nginx -T — Verified Nginx configuration
+Nginx error/access logs — Investigated upstream and proxy errors
+systemctl — Managed and checked server services
+
+Development tools
+Node.js
+npm
+Next.js
+Express
+MySQL
+Nginx
+PM2
+Git/GitHub
+
+Research/Documentation
+AWS documentation and console documentation
+Nginx documentation
+Node.js/Express documentation
+Next.js documentation
+PM2 documentation
+MySQL/RDS documentation
+Error messages and application/server logs used as primary debugging evidence
 
 ---
 
@@ -142,13 +306,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/eNpQS3EJ
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![linkedin](image-1.png)
 
 ---
 
