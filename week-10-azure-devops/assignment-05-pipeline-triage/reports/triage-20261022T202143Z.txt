@@ -1,0 +1,32 @@
+=== Pipeline Triage Report ===
+Inspection timestamp (UTC): 2026-10-22T20:21:43Z
+Organization: https://dev.azure.com/nikkyjuwe
+Project: EpicBook-Deployment
+Pipeline: Epicbook-App-Pipeline
+Pipeline ID: 8
+Run ID: 44
+Source branch: refs/heads/main
+Status: completed
+Result: failed
+Failure category: UNCLASSIFIED
+Evidence:
+  60:2026-10-22T20:20:23.1305469Z ##[error]Bash exited with code '1'.
+  248:2026-10-22T20:20:23.1305502Z ##[error]Bash exited with code '1'.
+Recommended human action: No category could be assigned from the evidence. Human to review the full task log in Azure DevOps before acting.
+Limitations: Analyzed 3 task log(s) from the run timeline (read-only).
+
+=== Pipeline Triage Report ===
+Inspection timestamp (UTC): 2026-10-22T20:21:43Z
+Organization: https://dev.azure.com/nikkyjuwe
+Project: EpicBook-Deployment
+Pipeline: Epicbook-infra-pipeline
+Pipeline ID: 7
+Run ID: 39
+Source branch: refs/heads/main
+Status: completed
+Result: succeeded
+Failure category: NONE
+Evidence:
+  No failure evidence: run succeeded.
+Recommended human action: No action required. Pipeline is healthy.
+Limitations: None.

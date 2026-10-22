@@ -1,0 +1,40 @@
+=== Pipeline Triage Report ===
+Inspection timestamp (UTC): 2026-10-22T20:29:11Z
+Organization: https://dev.azure.com/nikkyjuwe
+Project: EpicBook-Deployment
+Pipeline: Epicbook-App-Pipeline
+Pipeline ID: 8
+Run ID: 44
+Source branch: refs/heads/main
+Status: completed
+Result: failed
+Failed task(s): Job;Run application tests
+Failure category: TEST
+Evidence:
+  54:2026-10-22T20:20:23.0889039Z /home/ubuntu/azagent/_work/1/s/server.js
+  55:2026-10-22T20:20:23.0889787Z   36:7  error  'deliberateFailureDemo' is assigned a value but never used  no-unused-vars
+  57:2026-10-22T20:20:23.1060659Z ✖ 1 problem (1 error, 0 warnings)
+  242:2026-10-22T20:20:23.0889060Z /home/ubuntu/azagent/_work/1/s/server.js
+  243:2026-10-22T20:20:23.0889794Z   36:7  error  'deliberateFailureDemo' is assigned a value but never used  no-unused-vars
+  245:2026-10-22T20:20:23.1060711Z ✖ 1 problem (1 error, 0 warnings)
+  60:2026-10-22T20:20:23.1305469Z ##[error]Bash exited with code '1'.
+  248:2026-10-22T20:20:23.1305502Z ##[error]Bash exited with code '1'.
+Recommended human action: Human to fix the failing test, lint error, or code under test named in the evidence, commit the change, queue a new run, and triage again.
+Limitations: Analyzed 3 task log(s) from the run timeline (read-only).
+
+=== Pipeline Triage Report ===
+Inspection timestamp (UTC): 2026-10-22T20:29:11Z
+Organization: https://dev.azure.com/nikkyjuwe
+Project: EpicBook-Deployment
+Pipeline: Epicbook-infra-pipeline
+Pipeline ID: 7
+Run ID: 39
+Source branch: refs/heads/main
+Status: completed
+Result: succeeded
+Failed task(s): none recorded
+Failure category: NONE
+Evidence:
+  No failure evidence: run succeeded.
+Recommended human action: No action required. Pipeline is healthy.
+Limitations: None.

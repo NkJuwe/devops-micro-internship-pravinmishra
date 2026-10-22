@@ -1,0 +1,12 @@
+=== Pipeline Health Report ===
+Inspection timestamp (UTC): 2026-10-22T20:53:51Z
+Organization: https://dev.azure.com/nikkyjuwe
+Project: EpicBook-Deployment
+Overall status: PASS
+Exit code: 0
+Pipeline verdicts:
+  Epicbook-App-Pipeline (ID 8) - run 45,category NONE: PASS
+  Epicbook-infra-pipeline (ID 7) - run 39,category NONE: PASS
+Triage report: triage-20261022T205351Z.txt
+Last-run logs: app-last-run.log, infra-last-run.log
+Exit codes: 0=PASS 1=WARN 2=FAIL 3=ERROR
