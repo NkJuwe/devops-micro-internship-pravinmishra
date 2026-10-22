@@ -20,7 +20,7 @@ Import `https://github.com/pravinmishraaws/Azure-Static-Website` into Azure Repo
 
 #### Screenshot 1 — Azure Repos showing the imported repository files with `index.html` visible
 
-Add your screenshot here.
+![index.html](<Screenshot 2026-10-20 113238.png>)
 
 ---
 
@@ -34,13 +34,13 @@ Provision a Linux VM with Terraform (ports 22/80 open), then use Ansible to inst
 
 #### Screenshot 2 — Terraform output or cloud console showing the running VM and public IP
 
-Add your screenshot here.
+![vm](<Screenshot 2026-10-20 161909.png>)
 
 ---
 
 #### Screenshot 3 — Terminal showing Ansible completed successfully and Nginx is active
 
-Add your screenshot here.
+![ansible complete, nginx active](<Screenshot 2026-10-20 162055.png>)
 
 ---
 
@@ -54,7 +54,7 @@ Create the password-based SSH Service Connection `ubuntu-nginx-ssh` pointing to 
 
 #### Screenshot 4 — SSH Service Connection configuration page showing the connection details and successful validation, with the password hidden
 
-Add your screenshot here.
+![ssh config](<Screenshot 2026-10-20 122234.png>)
 
 ---
 
@@ -68,7 +68,7 @@ Write a pipeline triggered on `main` that checks out the repo, copies files to `
 
 #### Screenshot 5 — Pipeline YAML definition open in the Azure DevOps editor
 
-Add your screenshot here.
+![yaml](<Screenshot 2026-10-20 122956.png>)
 
 ---
 
@@ -82,13 +82,13 @@ Confirm the pipeline run succeeded (checkout, SSH connection, file transfer, rem
 
 #### Screenshot 6 — Successful Azure DevOps pipeline run log summary
 
-Add your screenshot here.
+![pipeline log](<Screenshot 2026-10-20 162350.png>)
 
 ---
 
 #### Screenshot 7 — Browser showing the deployed website with the VM public IP visible
 
-Add your screenshot here.
+![website](<Screenshot 2026-10-20 162510.png>)
 
 ---
 
@@ -96,7 +96,40 @@ Add your screenshot here.
 
 Include the VM public URL. Describe any issue you faced and how you fixed it (e.g. parallelism/agent-pool issues).
 
-Write your answer here.
+### Project: Deploying a Static Website to AWS EC2 Using Azure DevOps CI/CD
+
+**Cloud Platform:** Amazon Web Services (AWS) EC2
+**CI/CD Platform:** Azure DevOps Pipelines
+**VM Public URL:** http://13.53.111.64
+**Deployment Method:** Automated deployment over SSH to an EC2 instance running Nginx.
+
+### Implementation Summary
+
+I configured an Azure DevOps CI/CD pipeline to deploy static website files from Azure Repos to an AWS EC2 virtual machine. The pipeline uses a Microsoft-hosted Ubuntu agent, connects to the EC2 instance through an SSH service connection, copies website files to a staging directory, and synchronizes them to the Nginx web root at `/var/www/html`.
+
+The pipeline also checks that Nginx is running, verifies that `index.html` exists, and tests the website's HTTP response.
+
+### Issues Faced and Solutions
+
+**1. YAML syntax errors:**
+The initial pipeline configuration contained incorrect indentation and an invalid list marker (`*` instead of `-`). I corrected the YAML structure and indentation to resolve the parsing errors.
+
+**2. Agent pool configuration:**
+The pipeline initially referenced a self-hosted agent pool that Azure DevOps could not use. I switched to the Microsoft-hosted `ubuntu-latest` agent, allowing the pipeline to run without depending on the unavailable pool.
+
+**3. SSH connection timeout:**
+The pipeline initially timed out while connecting to the EC2 instance. I investigated the SSH connectivity and service connection configuration. A subsequent pipeline run established the SSH connection successfully.
+
+**4. Missing staging and web-root directories during manual testing:**
+I initially ran the synchronization command from my local WSL environment, where the EC2 directories did not exist. I identified that these operations needed to run on the remote EC2 instance and prepared the required directories and Nginx environment.
+
+### Outcome
+
+The pipeline successfully established an SSH connection to the EC2 instance and executed the remote verification task. The logs confirmed that `index.html` was present in the Nginx web root.
+
+**Public URL:** http://13.53.111.64
+
+This project provided practical experience with Azure DevOps CI/CD pipelines, AWS EC2, SSH-based deployments, Nginx configuration, and troubleshooting cloud deployment issues.
 
 ---
 

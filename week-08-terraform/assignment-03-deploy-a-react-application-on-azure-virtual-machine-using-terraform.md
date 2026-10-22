@@ -20,7 +20,7 @@ Create a `terraform-react-azure` project directory for the Azure Terraform confi
 
 #### Screenshot 1 — File Explorer, VS Code, or terminal showing the `terraform-react-azure` project directory
 
-Add your screenshot here.
+![explorer](<Screenshot 2026-10-08 225836.png>)
 
 ---
 
@@ -34,7 +34,7 @@ Define the resource group, virtual network/subnet, Network Security Group (SSH 2
 
 #### Screenshot 2 — VS Code showing `main.tf` with the required Azure resources, with any password or sensitive values hidden
 
-Add your screenshot here.
+![main.tf](<Screenshot 2026-10-08 225713.png>)
 
 ---
 
@@ -48,7 +48,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![init](<Screenshot 2026-10-08 164956-1.png>)
 
 ---
 
@@ -62,13 +62,13 @@ Review `terraform plan`, run `terraform apply`, and record the VM's public IP.
 
 #### Screenshot 4 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+![terraform apply](<Screenshot 2026-10-08 220948.png>)
 
 ---
 
 #### Screenshot 5 — Azure portal showing the Virtual Machine running and its public IP
 
-Add your screenshot here.
+![vm](<Screenshot 2026-10-08 225404.png>)
 
 ---
 
@@ -82,7 +82,7 @@ Establish an SSH session with the Ubuntu VM through its public IP.
 
 #### Screenshot 6 — Terminal showing a successful SSH connection to the Azure VM
 
-Add your screenshot here.
+![ssh connection](<Screenshot 2026-10-08 225205.png>)
 
 ---
 
@@ -96,7 +96,7 @@ Update Ubuntu and install Node.js, npm, and Git.
 
 #### Screenshot 7 — Terminal showing successful installation and the `node -v` and `npm -v` output
 
-Add your screenshot here.
+![node -v](<Screenshot 2026-10-08 230124.png>)
 
 ---
 
@@ -110,13 +110,13 @@ Follow the `my-react-app` repository README to clone, install, and build the app
 
 #### Screenshot 8 — Terminal showing the successful React build
 
-Add your screenshot here.
+![react build](<Screenshot 2026-10-08 224033.png>)
 
 ---
 
 #### Screenshot 9 — Terminal showing that Nginx is active and running
 
-Add your screenshot here.
+![nginx](<Screenshot 2026-10-08 223758.png>)
 
 ---
 
@@ -130,7 +130,7 @@ Confirm the React application loads through the VM's public IP and navigation wo
 
 #### Screenshot 10 — Browser showing the React application with the Azure VM public IP visible in the address bar
 
-Add your screenshot here.
+![browser](<Screenshot 2026-10-08 223449.png>)
 
 ---
 
@@ -138,7 +138,26 @@ Add your screenshot here.
 
 Write a short summary of what you built and any issues you encountered and how you resolved them.
 
-Write your answer here.
+In this assignment, I used Terraform to provision the infrastructure required to host a React application on Microsoft Azure. The infrastructure included an Azure Resource Group, Virtual Network, subnet, Network Security Group, public IP address, network interface, and Ubuntu Linux virtual machine.
+
+I used cloud-init to automate the server configuration and application deployment. The deployment process installed the required packages, including Node.js, npm, Git, and Nginx. I cloned the React application repository, installed its dependencies, generated the production build, and configured Nginx to serve the application over HTTP.
+
+### Issues Encountered and Resolutions
+
+1. **Network connectivity:** The initial VM configuration did not allow the required SSH access. I corrected the Network Security Group configuration to allow inbound SSH traffic on port 22 and HTTP traffic on port 80.
+
+2. **Cloud-init configuration:** An earlier deployment encountered a shell-script syntax error. I corrected the deployment script and verified that cloud-init completed successfully.
+
+3. **Application personalization:** The React application initially displayed placeholder text for the developer's name and deployment date. I updated `src/App.js`, rebuilt the React application, and copied the updated production files into Nginx's web directory.
+
+4. **Deployment verification:** I checked the cloud-init status, verified that Nginx was running, and tested the application through the VM's public IP address.
+
+### What I Learned
+
+This assignment helped me understand how Terraform provisions Azure infrastructure as code and how cloud-init automates server configuration. I also gained practical experience with Linux administration, Network Security Groups, SSH, Node.js, React production builds, and Nginx web hosting.
+
+The project demonstrated how infrastructure provisioning and application deployment can be combined into a repeatable workflow.
+
 
 ---
 

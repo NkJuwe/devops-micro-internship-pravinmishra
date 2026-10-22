@@ -20,7 +20,7 @@ Create the `mini-finance` project with separate `terraform/` and `ansible/` subd
 
 #### Screenshot 1 — Terminal or editor showing the complete `mini-finance` project tree
 
-Add your screenshot here.
+![mini-finance project tree](<Screenshot 2026-10-17 011847.png>)
 
 ---
 
@@ -34,20 +34,19 @@ Provision an Ubuntu 22.04 Standard_B1s VM with a public IP, SSH key authenticati
 
 #### Screenshot 2 — Terminal showing the end of a successful `terraform apply`
 
-Add your screenshot here.
+![mini-finance project tree](<Screenshot 2026-10-17 011847-1.png>)
 
 ---
 
 #### Screenshot 3 — Terminal showing `terraform output public_ip`
 
-Add your screenshot here.
+![terraform output public_ip](<Screenshot 2026-10-17 012122.png>)
 
 ---
 
 #### Screenshot 4 — Terraform code or Azure Portal showing NSG inbound rules for ports 22 and 80
 
-Add your screenshot here.
-
+![NSg inbound](<Screenshot 2026-10-17 020938.png>)
 ---
 
 # Task 3 — Configure Passwordless SSH
@@ -60,7 +59,7 @@ Connect to the VM with SSH using the injected key and run `hostname` remotely wi
 
 #### Screenshot 5 — Terminal showing the successful passwordless SSH hostname check
 
-Add your screenshot here.
+![ssh](<Screenshot 2026-10-17 012223.png>)
 
 ---
 
@@ -74,13 +73,13 @@ Create `ansible/inventory.ini` and a three-play `site.yml` that installs Nginx a
 
 #### Screenshot 6 — Editor showing `inventory.ini` and the three plays in `site.yml`
 
-Add your screenshot here.
+![inventory.ini](<Screenshot 2026-10-17 012353.png>)
 
 ---
 
 #### Screenshot 7 — Terminal showing `ansible-playbook -i inventory.ini site.yml` with HTTP 200, assertion OK, and no failures
 
-Add your screenshot here.
+![assertion ok](<Screenshot 2026-10-17 014626.png>)
 
 ---
 
@@ -94,7 +93,7 @@ Confirm the Mini Finance site is publicly accessible and correctly served by Ngi
 
 #### Screenshot 8 — Browser showing the Mini Finance site loaded from `http://<public_ip>` with the URL visible
 
-Add your screenshot here.
+![url](<Screenshot 2026-10-17 014757.png>)
 
 ---
 
@@ -102,7 +101,11 @@ Add your screenshot here.
 
 Describe an issue you faced and how you fixed it, and what you learned.
 
-Write your answer here.
+One issue I faced during the deployment was an incorrect working directory when running Terraform commands. I ran `terraform destroy` from the Ansible directory instead of the Terraform directory where the state file was stored. Terraform reported that there were no resources to destroy, which could have been misleading if I had assumed the AWS infrastructure was deleted.
+
+I learned that Terraform commands depend on the configuration and state available in the current working directory. I addressed the issue by identifying the correct project structure and confirming that Terraform operations were run from the directory containing the configuration and state files.
+
+This experience taught me to verify my working directory and Terraform state before running infrastructure commands, especially destructive ones. It reinforced the importance of understanding how Terraform tracks resources and of checking command output carefully rather than assuming an operation succeeded.
 
 ---
 
@@ -118,13 +121,13 @@ Publish a LinkedIn post about the Terraform + Ansible deployment, mentioning the
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/ezRxAJPC
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the text and at least one image or proof
 
-Add your screenshot here.
+![linkedin post](<Screenshot 2026-10-17 022416.png>)
 
 ---
 

@@ -20,7 +20,7 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+![az account](<Screenshot 2026-10-07 162943.png>)
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+![claude.md](<Screenshot 2026-10-07 163501.png>)
 
 ---
 
@@ -48,7 +48,7 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+![four check plan](<Screenshot 2026-10-07 163722.png>)
 
 ---
 
@@ -62,13 +62,13 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+![az command](<Screenshot 2026-10-07 163930.png>)
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+![bash -n](<Screenshot 2026-10-07 162006.png>)
 
 ---
 
@@ -82,7 +82,7 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+![script](<Screenshot 2026-10-07 165617.png>)
 
 ---
 
@@ -96,13 +96,13 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+![frontmatter](<Screenshot 2026-10-07 170010.png>)
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+![azure audit](<Screenshot 2026-10-07 170355.png>)
 
 ---
 
@@ -116,19 +116,19 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+![original finding](<Screenshot 2026-10-07 170706.png>)
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![remediation](<Screenshot 2026-10-07 171112.png>)
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+![2nd azure audit](<Screenshot 2026-10-07 171822.png>)
 
 ---
 
@@ -136,7 +136,7 @@ Add your screenshot here.
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+The Azure security audit followed the same general workflow as the AWS security audit from Week 6. Both audits first discovered the deployed resources, collected security evidence using read-only CLI commands, classified controls as PASS, WARN, or FAIL, documented the baseline findings, and then verified the environment again after a manually approved remediation. The main difference was the cloud-specific resources and CLI commands. Azure used NSGs, Storage Accounts, managed disks, and MySQL Flexible Server, while AWS used equivalent services such as Security Groups, S3, EBS, and RDS. The security reasoning and audit workflow remained the same even though the Azure and AWS commands were different.
 
 ---
 

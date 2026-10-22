@@ -20,7 +20,7 @@ Create the `epicbook-prod` project with `terraform/azure` or `terraform/aws`, `a
 
 #### Screenshot 1 — Terminal or editor showing the complete `epicbook-prod` project tree
 
-Add your screenshot here.
+![project tree](<Screenshot 2026-10-18 231534.png>)
 
 ---
 
@@ -34,13 +34,13 @@ Provision one secure Ubuntu 22.04 VM with SSH key authentication, inbound SSH (2
 
 #### Screenshot 2 — Terminal showing successful `terraform apply` and `terraform output` with `public_ip` and `admin_user`
 
-Add your screenshot here.
+![terraform output](<Screenshot 2026-10-19 110819.png>)
 
 ---
 
 #### Screenshot 3 — Terraform code or cloud console showing inbound rules for ports 22 and 80
 
-Add your screenshot here.
+![inbound rules](<Screenshot 2026-10-19 111447.png>)
 
 ---
 
@@ -54,13 +54,13 @@ Create the `[web]` inventory using the Terraform `public_ip` and `admin_user` ou
 
 #### Screenshot 4 — Terminal showing the successful passwordless SSH hostname check
 
-Add your screenshot here.
+![passwordless ssh](<Screenshot 2026-10-19 110928.png>)
 
 ---
 
 #### Screenshot 5 — Editor or terminal showing `inventory.ini` and a successful Ansible ping
 
-Add your screenshot here.
+![ping](<Screenshot 2026-10-18 233243.png>)
 
 ---
 
@@ -74,7 +74,7 @@ Create `site.yml` invoking the `common`, `nginx`, and `epicbook` roles in that e
 
 #### Screenshot 6 — Editor showing `ansible/site.yml` with the three roles in the required order
 
-Add your screenshot here.
+![ansible/site.yml](<Screenshot 2026-10-18 233335.png>)
 
 ---
 
@@ -88,7 +88,7 @@ Create `roles/common/tasks/main.yml` to update apt, upgrade packages, install ba
 
 #### Screenshot 7 — Editor showing `roles/common/tasks/main.yml`
 
-Add your screenshot here.
+![main.yml](<Screenshot 2026-10-18 233402.png>)
 
 ---
 
@@ -102,13 +102,13 @@ Create the `nginx` role to install Nginx, deploy the `epicbook.conf.j2` template
 
 #### Screenshot 8 — Editor showing the Nginx role tasks, handler, and `epicbook.conf.j2` template
 
-Add your screenshot here.
+![nginx](<Screenshot 2026-10-18 233435.png>)
 
 ---
 
 #### Screenshot 9 — Terminal showing `/etc/nginx/sites-available/epicbook` and a successful Nginx configuration test
 
-Add your screenshot here.
+![successful nginx](<Screenshot 2026-10-18 233458.png>)
 
 ---
 
@@ -122,7 +122,7 @@ Create the `epicbook` role to clone the repository to `{{ app_dest }}`, set owne
 
 #### Screenshot 10 — Editor showing `roles/epicbook/tasks/main.yml`
 
-Add your screenshot here.
+![tasks/main.yml](<Screenshot 2026-10-18 233520.png>)
 
 ---
 
@@ -136,7 +136,7 @@ Define `app_repo`, `app_dest`, `app_user`, and `app_group` in `ansible/group_var
 
 #### Screenshot 11 — Editor showing `ansible/group_vars/web.yml`
 
-Add your screenshot here.
+![groups_vars/web.yml](<Screenshot 2026-10-18 233538.png>)
 
 ---
 
@@ -150,7 +150,7 @@ Run `ansible-playbook -i inventory.ini site.yml` and confirm `common` → `nginx
 
 #### Screenshot 12 — Terminal showing the role-based Ansible run and final recap with `failed=0`
 
-Add your screenshot here.
+![final recap](<Screenshot 2026-10-19 014847.png>)
 
 ---
 
@@ -164,19 +164,19 @@ Confirm the EpicBook site loads with HTTP 200, inspect the Nginx configuration, 
 
 #### Screenshot 13 — Browser showing the EpicBook site with the public IP visible
 
-Add your screenshot here.
+![browser](<Screenshot 2026-10-19 014956.png>)
 
 ---
 
 #### Screenshot 14 — Terminal showing HTTP 200 and the Nginx site-file snippet
 
-Add your screenshot here.
+![http 200](<Screenshot 2026-10-19 015028.png>)
 
 ---
 
 #### Screenshot 15 — Terminal showing the idempotent second Ansible run with mostly OK/UNCHANGED and `failed=0`
 
-Add your screenshot here.
+![idempotent second ansible](<Screenshot 2026-10-19 114005.png>)
 
 ---
 
@@ -184,7 +184,23 @@ Add your screenshot here.
 
 Describe an issue you faced and how you fixed it, what you learned, any security issues you identified, and your production remediation plan.
 
-Write your answer here.
+### Issue Faced and Resolution
+
+One challenge was getting the EpicBook application to run correctly behind Nginx. Although the application service was running, Nginx initially displayed its default welcome page instead of the EpicBook interface. I inspected the Nginx configuration, verified the application response locally, and reloaded Nginx so that requests were served through the intended EpicBook site configuration. I then verified that the public endpoint returned HTTP 200 and displayed the application.
+
+I also addressed Ansible idempotency. The npm dependency installation task initially reported changes on repeated runs. I updated the role to check whether the Git repository had changed and whether the installed npm dependency lockfile existed before running the dependency installation task. The subsequent playbook run completed with `changed=0`, `failed=0`, and `unreachable=0`.
+
+### What I Learned
+
+This project strengthened my understanding of Terraform-based infrastructure provisioning, Ansible role design, Linux service management, application runtime configuration, Nginx reverse proxying, and repeatable configuration management. I learned that a successful deployment requires more than provisioning a virtual machine: the application, database, service manager, web server, and network access must work together. I also learned to distinguish a service being active from the application being accessible through its public endpoint.
+
+### Security Issues Identified
+
+The deployment uses SSH key authentication, and SSH ingress is restricted to a specific source IP address. The application database credentials are stored in an Ansible Vault file and deployed to a root-owned environment file with restrictive permissions. The application is served through Nginx over HTTP, however, rather than HTTPS. The current single-server architecture also does not provide the isolation, redundancy, and resilience expected of a production service.
+
+### Production Remediation Plan
+
+For a production deployment, I would configure HTTPS using a valid TLS certificate, restrict inbound and outbound network access to the minimum required, and move database credentials to a dedicated secrets-management service. I would separate the application and database into appropriately isolated network tiers, establish automated backups and tested recovery procedures, and add centralized logging, monitoring, and alerting. I would also introduce automated security updates, vulnerability scanning, and deployment checks in a CI/CD pipeline before promoting changes to production.
 
 ---
 

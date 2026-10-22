@@ -20,7 +20,7 @@ Confirm every host in your inventory responds to a ping module check, then creat
 
 #### Screenshot 1 — Terminal showing `ansible all -m ping` with every host reachable
 
-Add your screenshot here.
+![ansible all -m ping](<Screenshot 2026-10-19 145312.png>)
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CLAUDE.md` that defines the change-review workflow (dry run first, hum
 
 #### Screenshot 2 — `CLAUDE.md` open showing the workflow and safety rules
 
-Add your screenshot here.
+![claude.md workflow](<Screenshot 2026-10-19 145645.png>)
 
 ---
 
@@ -48,7 +48,7 @@ Ask Claude Code to read `CLAUDE.md` and propose a risk-classification plan with 
 
 #### Screenshot 3 — Claude Code showing the four-category risk-classification plan
 
-Add your screenshot here.
+![claude risk classification](<Screenshot 2026-10-19 150330.png>)
 
 ---
 
@@ -62,13 +62,13 @@ Create `ansible-check-review.sh` that runs `ansible-playbook --check --diff`, pa
 
 #### Screenshot 4 — Editor showing the script's task-classification functions
 
-Add your screenshot here.
+![script's task classification](<Screenshot 2026-10-19 150925.png>)
 
 ---
 
 #### Screenshot 5 — Terminal showing `bash -n` passing with no syntax errors
 
-Add your screenshot here.
+![bash -n](<Screenshot 2026-10-19 151007.png>)
 
 ---
 
@@ -82,7 +82,7 @@ Run the script against your unmodified playbook and confirm it reports low risk 
 
 #### Screenshot 6 — Terminal output showing the risk report and its overall status
 
-Add your screenshot here.
+![terminal output](<Screenshot 2026-10-19 151337.png>)
 
 ---
 
@@ -96,13 +96,13 @@ Create a Claude Code skill restricted to read-only tools that runs the script, r
 
 #### Screenshot 7 — `SKILL.md` frontmatter showing `allowed-tools` with no `Write`
 
-Add your screenshot here.
+![skill.md](<Screenshot 2026-10-19 151525.png>)
 
 ---
 
 #### Screenshot 8 — `/ansible-risk-review` output for the baseline playbook
 
-Add your screenshot here.
+![baseline playbook](<Screenshot 2026-10-19 151731.png>)
 
 ---
 
@@ -116,13 +116,13 @@ Add one task to your playbook that touches a risk category — a service restart
 
 #### Screenshot 9 — Raw dry-run output showing the new task reporting `changed`
 
-Add your screenshot here.
+![raw dry run output](<Screenshot 2026-10-19 152703.png>)
 
 ---
 
 #### Screenshot 10 — `/ansible-risk-review` output showing the risky finding and the recommendation to hold for review
 
-Add your screenshot here.
+![ansible-risk-review risky finding and recommendation](<Screenshot 2026-10-19 153130.png>)
 
 ---
 
@@ -136,13 +136,13 @@ Review the recommendation, run the playbook for real yourself (never Claude), co
 
 #### Screenshot 11 — Terminal showing the real `ansible-playbook` run applying successfully
 
-Add your screenshot here.
+![ansible playbook successfully run](<Screenshot 2026-10-19 155742.png>)
 
 ---
 
 #### Screenshot 12 — Second `/ansible-risk-review` output confirming no further changes are pending
 
-Add your screenshot here.
+![2nd claude output](<Screenshot 2026-10-19 160511.png>)
 
 ---
 
@@ -150,7 +150,7 @@ Add your screenshot here.
 
 In one or two sentences, explain why `ansible-playbook --check --diff` deserves the same respect as `terraform plan`, and why the AI skill was allowed to analyze the dry-run output but never allowed to run the playbook for real.
 
-Add your answer here
+`ansible-playbook --check --diff` deserves the same respect as `terraform plan` because both reveal intended infrastructure changes, including potentially destructive operations, before they are applied, although neither guarantees exactly what will happen during real execution. The AI skill was allowed to analyze the dry-run output to identify risks and skipped tasks, but only a human could approve and execute the real playbook to maintain control over production changes.
 
 ---
 

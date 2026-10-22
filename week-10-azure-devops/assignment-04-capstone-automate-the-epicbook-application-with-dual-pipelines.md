@@ -20,7 +20,7 @@ Prepare `infra-epicbook` (Terraform for network, frontend/backend VMs, MySQL, wi
 
 #### Screenshot 1 — Both repositories showing their required files and separation of responsibilities
 
-Add your screenshot here.
+![repos](<Screenshot 2026-10-22 175859.png>)
 
 ---
 
@@ -34,7 +34,7 @@ Create and validate an Azure Resource Manager SPN service connection (Tenant ID,
 
 #### Screenshot 2 — Azure Resource Manager service connection showing successful configuration with secrets hidden
 
-Add your screenshot here.
+![resource manager](<Screenshot 2026-10-22 180329.png>)
 
 ---
 
@@ -48,13 +48,13 @@ Create a YAML pipeline for `infra-epicbook` that authenticates via the SPN conne
 
 #### Screenshot 3 — Infra Pipeline run showing `terraform apply` completion and the `app_public_ip` and `mysql_fqdn` outputs
 
-Add your screenshot here.
+![terraform apply](<Screenshot 2026-10-22 180506.png>)
 
 ---
 
 #### Screenshot 4 — Azure Portal confirming the provisioned resources
 
-Add your screenshot here.
+![aws](<Screenshot 2026-10-22 180625.png>)
 
 ---
 
@@ -68,13 +68,13 @@ Upload the SSH private key to Azure DevOps Secure Files, create a YAML pipeline 
 
 #### Screenshot 5 — App Pipeline run summary showing successful completion
 
-Add your screenshot here.
+![app pipeline](<Screenshot 2026-10-22 180802.png>)
 
 ---
 
 #### Screenshot 6 — Ansible playbook output showing successful configuration with `failed=0`
 
-Add your screenshot here.
+![ansible playbook](<Screenshot 2026-10-22 181010.png>)
 
 ---
 
@@ -88,7 +88,7 @@ Confirm both pipelines succeeded, the EpicBook application loads through the fro
 
 #### Screenshot 7 — Browser displaying the running EpicBook application with the frontend public IP visible
 
-Add your screenshot here.
+![browser](<Screenshot 2026-10-22 173129.png>)
 
 ---
 
@@ -96,7 +96,13 @@ Add your screenshot here.
 
 Record the frontend public application URL and a short issue-and-resolution note, if applicable.
 
-Write your answer here.
+**Frontend Public Application URL:** http://13.48.55.202
+
+**Issue Encountered:** The App Pipeline failed during Ansible deployment because SSH host-key verification failed. The pipeline was preparing the frontend host key using its public IP (`13.48.55.202`), while the Ansible inventory used the frontend's private IP (`10.0.1.14`).
+
+**Resolution:** Updated `FRONTEND_HOST` in `azure-pipelines.yml` to `10.0.1.14` so the SSH host-key preparation matched the Ansible inventory. Committed and pushed the change, after which the App Pipeline completed successfully.
+
+**Verification:** Opened the frontend public URL in a browser and confirmed that EpicBook loaded and displayed the books.
 
 ---
 
@@ -112,13 +118,13 @@ Publish a LinkedIn post about the completed capstone project, mentioning the two
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/exdk6zxf
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the text and at least one link or image
 
-Add your screenshot here.
+![linkedin screenshot](<Screenshot 2026-10-22 182541.png>)
 
 ---
 

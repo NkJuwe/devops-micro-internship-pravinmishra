@@ -30,7 +30,7 @@ Create a self-hosted agent pool (e.g. `SelfHostedPool`) in Azure DevOps Organiza
 
 #### Screenshot 1 — Azure DevOps Agent Pools page showing the newly created pool
 
-Add your screenshot here.
+![pool](<Screenshot 2026-10-20 093036.png>)
 
 ---
 
@@ -44,13 +44,13 @@ Create an Ubuntu 22.04 (or latest) VM in AWS or Azure with SSH access, and confi
 
 #### Screenshot 2 — Cloud console showing the running Ubuntu VM and its public IP or DNS name
 
-Add your screenshot here.
+![vm](<Screenshot 2026-10-20 073749.png>)
 
 ---
 
 #### Screenshot 3 — Terminal showing a successful SSH login and Ubuntu version details
 
-Add your screenshot here.
+![ssh login](<Screenshot 2026-10-20 081923.png>)
 
 ---
 
@@ -64,13 +64,13 @@ Download the Linux agent package, register it with your organization/pool/PAT vi
 
 #### Screenshot 4 — Terminal showing successful agent configuration without exposing the PAT
 
-Add your screenshot here.
+![agent config](<Screenshot 2026-10-20 104546.png>)
 
 ---
 
 #### Screenshot 5 — Terminal showing the agent service running successfully
 
-Add your screenshot here.
+![agent services](<Screenshot 2026-10-20 104722.png>)
 
 ---
 
@@ -84,7 +84,7 @@ Confirm the agent service is running and the agent shows as Online in the Azure 
 
 #### Screenshot 6 — Agent Pool listing showing the registered agent online
 
-Add your screenshot here.
+![agent pool online](<Screenshot 2026-10-20 094317.png>)
 
 ---
 
@@ -98,7 +98,7 @@ Create and run a YAML pipeline targeting the self-hosted pool, running `uname -a
 
 #### Screenshot 7 — Successful test pipeline run output in Azure DevOps showing the Linux commands
 
-Add your screenshot here.
+![test pipeline](<Screenshot 2026-10-20 102549.png>)
 
 ---
 
@@ -106,7 +106,20 @@ Add your screenshot here.
 
 Note the cloud platform used, your Azure DevOps organization/project name, and the agent pool name. Describe any issue you faced and how you resolved it.
 
-Write your answer here.
+**Cloud Platform:** Microsoft Azure
+
+**Organization:** `nikkyjuwe`
+**Project:** `MySelfHostedAgentProject`
+**Agent Pool:** `MySelfHostedPool`
+
+**Issues Encountered and Resolutions:**
+
+1. **SSH authentication failed:** Resolved by specifying the correct private key when connecting to the Ubuntu VM.
+2. **Agent package execution error:** Resolved by extracting the downloaded `.tar.gz` archive before configuration.
+3. **Authentication error:** Corrected the configuration prompt sequence and replaced the exposed Personal Access Token.
+4. **Missing repository:** Initialized the Azure Repos Git repository before creating the pipeline.
+
+**Outcome:** Successfully configured the self-hosted agent, verified its Online status, and ran a test pipeline that completed successfully.
 
 ---
 

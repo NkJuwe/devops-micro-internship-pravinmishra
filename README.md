@@ -138,13 +138,13 @@ https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-748
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | (https://www.linkedin.com/posts/nkechi-juwe_dmi-devops-micro-internship-with-agentic-share-7487289872966156288-Cxrt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M) | https://medium.com/@nikkyjuwe/building-and-deploying-codetrack-a-beginner-friendly-devops-journey-from-git-to-aws-ec2-8a4202823a89 |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/nkechi-juwe_devops-claudecode-mcp-ugcPost-7492560754517303298-roCd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADt-vqsBoRObYmV0maWpD3wnWmjrlXVSF4M | https://medium.com/@nikkyjuwe/from-jira-ticket-to-live-deployment-how-i-built-a-devops-workflow-with-jira-ec2-and-claude-code-828761d0eb04?sharedUserId=nikkyjuwe |
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | — | — |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ✅ Completed | ✅ Completed | https://lnkd.in/p/es3MRtT3 | https://medium.com/@nikkyjuwe/building-an-ai-assisted-azure-security-posture-audit-with-azure-cli-and-claude-code-ddc771b5fd57 |
+| 08 | Terraform | ✅ Completed | ✅ Completed | — | — |
+| 09 | Ansible | ✅ Completed | ✅ Completed | — | — |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | — | — |
+| 11 | Docker | ✅ Completed | ✅ Completed | — | — |
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | — | — |
+| 13 | Final Project | ✅ Completed | ✅ Completed | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved

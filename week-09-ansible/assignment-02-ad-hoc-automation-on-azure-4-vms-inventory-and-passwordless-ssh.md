@@ -20,19 +20,19 @@ Provision four Ubuntu 22.04 VMs (`web1`, `web2`, `app1`, `db1`, Standard_B1s) wi
 
 #### Screenshot 1 — Terminal showing successful `terraform apply` output and `terraform output public_ips`
 
-Add your screenshot here.
+![terraform apply](<Screenshot 2026-10-16 000503.png>)
 
 ---
 
 #### Screenshot 2 — Azure Portal showing all four running Ubuntu VMs
 
-Add your screenshot here.
+![ec2 vms](<Screenshot 2026-10-16 011246.png>)
 
 ---
 
 #### Screenshot 3 — Network Security Group inbound rules showing SSH 22 and HTTP 80
 
-Add your screenshot here.
+![nsg](<Screenshot 2026-10-16 011512.png>)
 
 ---
 
@@ -46,7 +46,7 @@ Connect to each of the four VMs as `azureuser` and run `hostname` remotely witho
 
 #### Screenshot 4 — Terminal showing successful `hostname` output from all four passwordless SSH tests
 
-Add your screenshot here.
+![passwordless ssh test](<Screenshot 2026-10-16 001145.png>)
 
 ---
 
@@ -60,7 +60,7 @@ Create `inventory.ini` mapping VM indices 0–1 to `[web]`, index 2 to `[app]`, 
 
 #### Screenshot 5 — Editor or terminal showing `inventory.ini` with the web, app, db, and all:vars sections
 
-Add your screenshot here.
+![inventory.ini](<Screenshot 2026-10-16 002006.png>)
 
 ---
 
@@ -74,25 +74,25 @@ Run `ping`, `whoami`, and `uptime` against all hosts; install and start Nginx on
 
 #### Screenshot 6 — Terminal showing `ansible ping` SUCCESS for all four hosts
 
-Add your screenshot here.
+![ansible ping](<Screenshot 2026-10-16 002441.png>)
 
 ---
 
 #### Screenshot 7 — Terminal showing `uptime` output for all four hosts
 
-Add your screenshot here.
+![uptime](<Screenshot 2026-10-16 002624.png>)
 
 ---
 
 #### Screenshot 8 — Terminal showing Nginx installation and service start on the web group
 
-Add your screenshot here.
+![nginx](<Screenshot 2026-10-16 003443.png>)
 
 ---
 
 #### Screenshot 9 — Terminal showing `htop` installation on all hosts and group-targeted command output
 
-Add your screenshot here.
+![htop](<Screenshot 2026-10-16 003546.png>)
 
 ---
 
@@ -100,7 +100,22 @@ Add your screenshot here.
 
 Describe an issue you faced and how you fixed it, what you learned, when you'd use an ad-hoc command instead of a playbook, and one challenge you faced during SSH or inventory setup.
 
-Write your answer here.
+### 1. An Issue I Faced and How I Fixed It
+
+One issue I encountered was configuring the Ansible inventory and running commands from the correct directory. Initially, Ansible could not find the inventory file because I was running the command from the Terraform directory while using a relative path to the inventory. I fixed this by returning to the project root and using the correct inventory path, `ansible/inventory.ini`. This taught me that the current working directory and file paths are important when running infrastructure automation commands.
+
+### 2. What I Learned
+
+I learned how to provision Ubuntu EC2 instances on AWS using Terraform and manage them remotely with Ansible. I also learned how to configure an inventory, test connectivity with the Ansible ping module, retrieve server uptime, install packages, and manage services. Successfully installing and starting Nginx, then receiving an HTTP 200 OK response, showed me how to verify that a service is working beyond simply checking whether a command completed successfully.
+
+### 3. When I Would Use an Ad-Hoc Command Instead of a Playbook
+
+I would use an Ansible ad-hoc command for quick, one-time tasks such as checking server connectivity, retrieving uptime, installing a package, or checking a service's status across multiple hosts. For example, `ansible all -i ansible/inventory.ini -m ping` quickly checks whether Ansible can reach the managed servers. For repeatable, multi-step deployments that require structured tasks, variables, handlers, and consistent execution, I would use an Ansible playbook.
+
+### 4. A Challenge I Faced During SSH or Inventory Setup
+
+One challenge was ensuring that all three EC2 instances were accessible through SSH and correctly represented in the Ansible inventory. I had to use each instance's correct public IP address, the Ubuntu SSH username, and the correct private key path. I resolved the setup issues by verifying SSH connectivity to each server individually before running Ansible commands. This taught me that accurate inventory details and working SSH authentication are essential for reliable remote automation.
+
 
 ---
 

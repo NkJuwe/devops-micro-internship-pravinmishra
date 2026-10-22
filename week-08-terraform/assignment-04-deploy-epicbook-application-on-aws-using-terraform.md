@@ -20,13 +20,13 @@ Define a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) and private subnet
 
 #### Screenshot 1 — Terraform configuration showing the VPC and both subnet CIDR ranges
 
-Add your screenshot here.
+![terraform config](<Screenshot 2026-10-10 225913.png>)
 
 ---
 
 #### Screenshot 2 — Terraform configuration showing the Internet Gateway, public route table, and both Security Groups
 
-Add your screenshot here.
+![terraform plan](<Screenshot 2026-10-10 224545.png>)
 
 ---
 
@@ -40,19 +40,19 @@ Use Terraform to launch a t2.micro Ubuntu 22.04 EC2 instance in the public subne
 
 #### Screenshot 3 — Terraform apply output showing successful EC2 provisioning
 
-Add your screenshot here.
+![terraform apply](<Screenshot 2026-10-10 224435.png>)
 
 ---
 
 #### Screenshot 4 — EC2 instance running in the AWS Console with the public IP and subnet visible
 
-Add your screenshot here.
+![ec2 instance](<Screenshot 2026-10-10 160241.png>)
 
 ---
 
 #### Screenshot 5 — Terminal showing successful SSH access and installed software
 
-Add your screenshot here.
+![ssh access](<Screenshot 2026-10-10 230735.png>)
 
 ---
 
@@ -66,13 +66,13 @@ Deploy the EpicBook frontend and backend on the EC2 instance and configure Nginx
 
 #### Screenshot 6 — Terminal showing the EpicBook application files and dependency installation
 
-Add your screenshot here.
+![epicbook application installation](<Screenshot 2026-10-10 230617.png>)
 
 ---
 
 #### Screenshot 7 — Terminal showing the application and Nginx services running
 
-Add your screenshot here.
+![nginx services](<Screenshot 2026-10-10 230420.png>)
 
 ---
 
@@ -86,19 +86,18 @@ Provision a private Amazon RDS MySQL instance (db.t3.micro, Publicly accessible:
 
 #### Screenshot 8 — Terraform apply output showing successful RDS provisioning
 
-Add your screenshot here.
-
+![rds](<Screenshot 2026-10-11 180254.png>)
 ---
 
 #### Screenshot 9 — RDS instance in the AWS Console showing the private network configuration and Publicly accessible: No
 
-Add your screenshot here.
+![rds](<Screenshot 2026-10-10 160541.png>)
 
 ---
 
 #### Screenshot 10 — Terminal showing successful database initialization or table verification from EC2
 
-Add your screenshot here.
+![database initialization](<Screenshot 2026-10-11 175246.png>)
 
 ---
 
@@ -112,13 +111,13 @@ Confirm EpicBook is accessible through the EC2 public IP and that navigation, ca
 
 #### Screenshot 11 — Browser showing the EpicBook application through the EC2 public IP
 
-Add your screenshot here.
+![alt text](<Screenshot 2026-10-10 222448.png>)
 
 ---
 
 #### Screenshot 12 — Browser showing a working product, cart, order summary, or checkout flow
 
-Add your screenshot here.
+![epicbook-order-confirmation.png](<Screenshot 2026-10-10 222558.png>)
 
 ---
 
@@ -126,7 +125,7 @@ Add your screenshot here.
 
 Write a short note describing any issue you faced, how you fixed it, and what you learned.
 
-Write your answer here.
+I encountered an issue where Nginx displayed its default welcome page instead of the EpicBook application, even though the Node.js application was running on port 8080. I checked the Nginx site configuration to ensure it proxied incoming requests to `http://127.0.0.1:8080`. I then ran `sudo nginx -t` to validate the configuration and `sudo systemctl reload nginx` to apply the changes. This resolved the routing issue, and Nginx began serving the EpicBook application correctly. I learned the importance of verifying reverse-proxy configurations and testing each layer independently when troubleshooting deployment issues.
 
 ---
 
@@ -142,13 +141,13 @@ Publish a LinkedIn post about what you achieved in this assignment, with public 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/eQbGr9Fi
 
 ---
 
 #### Screenshot 13 — Published LinkedIn post showing the text and at least one image or proof
 
-Add your screenshot here.
+![linkedin](<Screenshot 2026-10-10 234329.png>)
 
 ---
 

@@ -20,7 +20,7 @@ Create a `terraform-aws-vm` project directory for the AWS Terraform configuratio
 
 #### Screenshot 1 — File Explorer, VS Code, or terminal showing the `terraform-aws-vm` project directory
 
-Add your screenshot here.
+![terraform-aws-vm](<Screenshot 2026-10-08 164121.png>)
 
 ---
 
@@ -34,7 +34,7 @@ Define the AWS provider, a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) 
 
 #### Screenshot 2 (optional) — `main.tf` showing the VPC and EC2 resource blocks
 
-Add your screenshot here.
+![main.tf](<Screenshot 2026-10-08 164907.png>)
 
 ---
 
@@ -48,7 +48,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![terraform init](<Screenshot 2026-10-08 164956.png>)
 
 ---
 
@@ -62,13 +62,13 @@ Review `terraform plan`, run `terraform apply`, and record the EC2 instance's pu
 
 #### Screenshot 4 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+![terraform apply](<Screenshot 2026-10-08 165224.png>)
 
 ---
 
 #### Screenshot 5 — Terraform output showing the EC2 public IP
 
-Add your screenshot here.
+![output](<Screenshot 2026-10-08 165256.png>)
 
 ---
 
@@ -82,13 +82,13 @@ Confirm the EC2 instance is running in the public subnet with a public IP, insta
 
 #### Screenshot 6 — EC2 instance running in the AWS Console, with the subnet and public IP visible
 
-Add your screenshot here.
+![EC2](<Screenshot 2026-10-08 165414.png>)
 
 ---
 
 #### Screenshot 7 — Browser showing the Nginx page through the EC2 public IP, or terminal showing a successful SSH connection
 
-Add your screenshot here.
+![browser](<Screenshot 2026-10-08 162203.png>)
 
 ---
 
@@ -102,7 +102,7 @@ Run `terraform destroy` to remove the Terraform-managed AWS resources after test
 
 #### Screenshot 8 — Terminal showing successful `terraform destroy` completion
 
-Add your screenshot here.
+![destroy](<Screenshot 2026-10-08 171139.png>)
 
 ---
 
@@ -110,7 +110,7 @@ Add your screenshot here.
 
 Write a short paragraph about any challenges you faced and how you solved them.
 
-Write your answer here.
+One of the main challenges I faced during this assignment was working with AWS region-specific resources, particularly identifying a valid Ubuntu AMI for the selected eu-north-1 region. I initially attempted to retrieve the AMI through an AWS Systems Manager public parameter, but the parameter was not available, resulting in a ParameterNotFound error. I resolved this by querying the AWS EC2 image catalogue and identifying a current Ubuntu 24.04 AMI for the selected region. I also learned the importance of correctly associating the public subnet with the public route table and using Terraform functions such as pathexpand() when referencing local SSH key files. Terraform then successfully provisioned the network, security group, SSH key pair, EC2 instance, and Nginx web server. I verified the deployment through Terraform output, AWS CLI, SSH, and a browser before destroying the resources with Terraform.
 
 ---
 
