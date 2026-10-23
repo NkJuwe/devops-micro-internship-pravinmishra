@@ -20,7 +20,7 @@ Confirm the latest run on both Azure DevOps and GitHub Actions currently succeed
 
 #### Screenshot 1 — Latest run status on Azure DevOps and/or GitHub Actions showing a successful run
 
-Add your screenshot here.
+![latest run successful](<Screenshot 2026-10-22 222025.png>)
 
 ---
 
@@ -34,7 +34,7 @@ Create `CLAUDE.md` describing the pipeline-triage workflow (gather → analyze �
 
 #### Screenshot 2 — `CLAUDE.md` showing the workflow and safety rules
 
-Add your screenshot here.
+![claude.md](<Screenshot 2026-10-23 162040.png>)
 
 ---
 
@@ -48,7 +48,7 @@ Build `pipeline-triage.sh`, a read-only Bash script that fetches the latest run'
 
 #### Screenshot 3 — `pipeline-triage.sh` showing the check functions and their pattern-matching conditionals
 
-Add your screenshot here.
+![triage.sh](<Screenshot 2026-10-22 223846.png>)
 
 ---
 
@@ -62,7 +62,7 @@ Run the script against your current, passing pipeline and confirm it produces a 
 
 #### Screenshot 4 — Script output and report showing a healthy result with no failure category triggered
 
-Add your screenshot here.
+![script output](<Screenshot 2026-10-22 222959.png>)
 
 ---
 
@@ -76,13 +76,13 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing the tool restrictions and safety rules
 
-Add your screenshot here.
+![skill.md](<Screenshot 2026-10-23 162005.png>)
 
 ---
 
 #### Screenshot 6 — `/pipeline-triage` output for the healthy pipeline
 
-Add your screenshot here.
+![healthy pipeline](<Screenshot 2026-10-22 223147.png>)
 
 ---
 
@@ -96,13 +96,13 @@ Introduce one safe, obvious, and easily reversible failure (for example, an inte
 
 #### Screenshot 7 — The failed pipeline run showing the red/failed status
 
-Add your screenshot here.
+![failed pipeline run](<Screenshot 2026-10-22 222256-1.png>)
 
 ---
 
 #### Screenshot 8 — `/pipeline-triage` output showing the diagnosed failure category, the quoted log evidence, and the recommended fix
 
-Add your screenshot here.
+![pipeline triage output](<Screenshot 2026-10-22 223846-2.png>)
 
 ---
 
@@ -116,13 +116,13 @@ Apply the recommended fix yourself, push it, confirm the pipeline succeeds again
 
 #### Screenshot 9 — The pipeline run succeeding after your fix
 
-Add your screenshot here.
+![successful pipeline](<Screenshot 2026-10-22 224403.png>)
 
 ---
 
 #### Screenshot 10 — Second `/pipeline-triage` output confirming the pipeline is healthy again
 
-Add your screenshot here.
+![2nd pipelin-triage](image.png)
 
 ---
 
@@ -130,7 +130,11 @@ Add your screenshot here.
 
 Explain, in your own words, why the skill was allowed to gather evidence and diagnose the failure but was never allowed to re-trigger the pipeline or apply the fix itself.
 
-Add your answer here
+The skill was allowed to gather evidence and diagnose the failure because these are read-only activities. It could inspect pipeline logs, review run results, identify the likely cause of the failure, and recommend corrective actions without changing the system.
+
+However, re-triggering a pipeline or applying a fix would involve making changes that could affect the application, infrastructure, or deployment environment. Those actions require human oversight to confirm that the diagnosis is correct, assess the risks, and approve the appropriate response. Keeping these permissions separate also prevents an AI-assisted tool from repeating a failure or making unintended changes automatically.
+
+This approach follows the **principle of least privilege**: the skill receives only the permissions it needs to perform its assigned task. The AI assists with investigation and decision-making, while a human remains responsible for approving and executing corrective actions.
 
 ---
 

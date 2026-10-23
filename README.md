@@ -141,7 +141,7 @@ https://www.linkedin.com/posts/nkechi-juwe_aws-cloudcomputing-devops-ugcPost-748
 | 07 | Azure Cloud | ✅ Completed | ✅ Completed | https://lnkd.in/p/es3MRtT3 | https://medium.com/@nikkyjuwe/building-an-ai-assisted-azure-security-posture-audit-with-azure-cli-and-claude-code-ddc771b5fd57 |
 | 08 | Terraform | ✅ Completed | ✅ Completed | — | — |
 | 09 | Ansible | ✅ Completed | ✅ Completed | — | — |
-| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | — | — |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://lnkd.in/p/exdk6zxf | https://medium.com/@nikkyjuwe/part-2-production-style-ci-cd-and-ai-assisted-pipeline-troubleshooting-ed0abef3563e |
 | 11 | Docker | ✅ Completed | ✅ Completed | — | — |
 | 12 | Kubernetes | ✅ Completed | ✅ Completed | — | — |
 | 13 | Final Project | ✅ Completed | ✅ Completed | — | — |
